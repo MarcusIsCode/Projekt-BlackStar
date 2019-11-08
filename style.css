@@ -1,3 +1,51 @@
-body{
-    background:red; /* just to test if it works */
+header {
+    background-color: grey;
+    display: flex;
+}
+.frontPage, .secondPage, .thirdPage, .lastPage {
+    height: 100vh;
+}
+/* Front page - section */
+.frontPage {
+    background-color: rgb(212, 209, 209);
+}
+.frontPage form {
+    background-color: rgb(158, 247, 243);
+    position: absolute;
+    width: 70%;
+    bottom: 2%;
+    left: 15%;
+    padding: 0.5rem;
+}
+.frontPage h2 {
+    width: 50%;
+}
+
+/* Second page - section */
+.secondPage article {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+    height: 33%;
+}
+.secondPage article p {
+    width: 50%;
+}
+.secondPage article:nth-child(odd) p {
+    position: absolute;
+    right: 0;
+}
+
+/* Footer with download button */
+footer {
+    background-color: grey;
+    height: 3rem;
+}
+
+/* Third page (Slideshow has it's own css-file) */
+
+/* Last page */
+.lastPage {
+    background-color:rgb(212, 209, 209);
+}
+.downloadFolder {
+    background-color: rgb(158, 247, 243);
 }
