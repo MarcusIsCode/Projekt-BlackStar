@@ -1,0 +1,12 @@
+/** General styling**/
+
+header {
+    background-color: grey;
+    display: flex;
+}
+.frontPage, .secondPage, .thirdPage, .lastPage {
+    height: 100vh;
+}
+
+
+
