@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+      
+            height:200vh;
+        }
+        #showScroll{
+            position: fixed;
+        }
+        #text{
+            Display:none;
+            font-size: 70px;;
+            top:100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- just an example therefore i used id in css-->
+        <p id="showScroll"></p>
+        <p id="text"> you can see me </p>
+
+   <script>
+       let scroll = document.getElementById('showScroll'); // scrolltext that is show how far down in px we are
+       const text = document.getElementById('text'); // the text that is shown after 60px
+
+
+/* addEventListner tacks in a event like onclik or scroll.
+ it's a method and this one works with the window*/
+       window.addEventListener('scroll', function () {
+             scroll.innerHTML = pageYOffset + 'px';//let's us se how many px down we are
+
+            if(pageYOffset > 60){
+               /* if pageYoffsee is bigger than 60 it will apear*/ 
+                  text.style.display = "inline";
+            }else{
+                /*if pageyofset is less than 60 it will now apear*/
+               text.style.display = "none";;
+            }
+        });
+
+
+   </script> 
+</body>
+</html>
