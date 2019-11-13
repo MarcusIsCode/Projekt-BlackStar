@@ -1,5 +1,9 @@
 
 /* Front page - section */
+header {
+    background-color: grey;
+    display: flex;
+}
 .frontPage {
     background-color: rgb(212, 209, 209);
 }
