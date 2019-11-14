@@ -18,8 +18,8 @@
 
 ### Computer Graphics Design
 
-* Anders Bennegård (CG)
-* Andrè Gillberg (CG)
+* Anders Bennegård 
+* Andrè Gillberg 
 
 
 [Project blackstar](https://project-blackstar13.netlify.com/)
