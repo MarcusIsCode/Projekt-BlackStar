@@ -1,23 +1,22 @@
 
-![gif](http://giphygifs.s3.amazonaws.com/media/11V6rs3BsLzVcs/giphy.gif)
+<img href="http://giphygifs.s3.amazonaws.com/media/11V6rs3BsLzVcs/giphy.gif" width="100%">
 
 
-# Projekt-BlackStar
+# Project BlackStar
 
 
 ## crew
-### WebbDevlopers
+### Webbdevelopers
 * Emelie Petersson
 * Camilla Kylmänen Sjörén 
 * Marcus Augustsson 
 
 
-### DigitalDisgners
+### Digital designers
 * William Forslund 
 * Rasmus Hermansson 
 
-### Computer Graphics Design
-
+### Computer graphics designers
 * Anders Bennegård 
 * Andrè Gillberg 
 
