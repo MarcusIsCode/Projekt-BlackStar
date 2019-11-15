@@ -1,11 +1,10 @@
-const hamburgerIcon = document.querySelector('.hamburger-icon');
-const menuItems = document.querySelector('.menu-items');
-// Function toggles between class names to show/hide menu items.
-hamburgerIcon.addEventListener('click', () => {
-    menuItems.classList.toggle('show-menu');
-}) 
+const hamburgerIcon = document.querySelector('.hamburgerIcon');
+const menuItems = document.querySelector('.menuItems');
+const menuContainer = document.querySelector('.menu');
 
-//Animate hamburger menu icon
-hamburgerIcon.addEventListener("click", function(){
+// Function toggles between class names to show/hide menu items and change styling to menu and icon.
+hamburgerIcon.addEventListener('click', () => {
+    menuItems.classList.toggle('showMenu');
+    menuContainer.classList.toggle('changeBackground');
     hamburgerIcon.classList.toggle("change");
-})
+}) 

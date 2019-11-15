@@ -1,9 +1,5 @@
 
 /* Front page - section */
-nav {
-    background-color: grey;
-    display: flex;
-}
 .frontPage {
     background-color: rgb(212, 209, 209);
 }

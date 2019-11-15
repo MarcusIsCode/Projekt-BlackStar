@@ -1,18 +1,33 @@
+nav {
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.menuItems {
+  display: none;
+}
+.mainNav img {
+  height: 1.5em;
+}
+
 /* Hamburger icon */
-.hamburger-icon {
-    display: inline-block;
-    cursor: pointer;
+.hamburgerIcon {
+  display: inline-block;
+  width: 2rem;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 4px;
   background-color: #ffffff;
   transition: 0.1s;
-  border-radius: 2px;
 }
 .bar2 {
-    margin: 7px 0;
+  margin: 7px 0;
 }
+
+/* Class "change" turns hamburgerIcon to a cross when clicked */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-10px, 6px);
   transform: rotate(-45deg) translate(-10px, 6px);
@@ -25,25 +40,44 @@
   transform: rotate(45deg) translate(-10px, -6px);
 }
 
-/* Toggle classes */
-.hamburger-icon {
-  width: 2rem;
-}
-.menu-items {
-  display: none;
-}
-.show-menu {
+/* Class "showMenu" makes menu items visible when hamburgerIcon is clicked */
+.showMenu {
   display: block;
   position: absolute;
   right: 0;
-  top: 4rem;
-  color: #000;
-  background-color: #ffffff;
-  width: 100vw;
+  top: 3em;
+  width: 50vw;
 }
-.show-menu li {
-  text-align: center;
+.showMenu li {
+  text-align: left;
   font-size: 1.2rem;
-  padding: 1rem 0.5rem 0.5rem;
+  padding: 0.5em 0.5em 0.5em 1em;
   text-transform: uppercase;
+}
+
+/* change the menu's background when hamburgerIcon is clicked */
+.changeBackground {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 1em 0 0;
+  background-color: #252525;
+  width: 50vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Nav menu in desktop */
+@media only screen and (min-width: 992px) { 
+  .menuItems {
+    display: block;
+  }
+  .menuItems li {
+    display: inline-block;
+    padding: 0 1em;
+  }
+  .hamburgerIcon {
+    display: none;
+  }
 }
