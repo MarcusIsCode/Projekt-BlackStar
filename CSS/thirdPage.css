@@ -5,6 +5,9 @@
   position: relative;
   margin: auto;
 }
+.mySlides img {
+  width: 100%;
+}
 
 /* Hide the images by default */
 .mySlides {
