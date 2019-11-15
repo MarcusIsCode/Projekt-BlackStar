@@ -8,3 +8,11 @@ hamburgerIcon.addEventListener('click', () => {
     menuContainer.classList.toggle('changeBackground');
     hamburgerIcon.classList.toggle("change");
 }) 
+
+window.addEventListener('resize', function() {
+    if (menuContainer.classList.contains('changeBackground')) {
+        menuContainer.classList.remove('changeBackground');
+        menuItems.classList.remove('showMenu');
+        hamburgerIcon.classList.remove('change');
+    }
+  });
