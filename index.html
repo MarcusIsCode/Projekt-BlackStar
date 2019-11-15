@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +9,12 @@
     <link rel="stylesheet" href="CSS/frontPage.css">
     <link rel="stylesheet" href="CSS/secondPage.css">
     <link rel="stylesheet" href="CSS/thirdPage.css">
-    <!--also known as third page-->
     <link rel="stylesheet" href="CSS/lastPage.css">
     <link rel="stylesheet" href="CSS/mainNavBar.css">
     <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- ****Naming classes is going to be changed later-->
 
     <section class="frontPage">
         <nav class="mainNav"> <!-- ********* fixed position?-->
@@ -38,10 +35,10 @@
             </div>
         </nav>
 
-        <h2>You are special. BlackStar.</h2> <!-- Shoul this be the h1 instead? -->
+        <h1>You are special. BlackStar.</h1> 
 
         <!-- **** shuld form have fixed postion?-->
-        <form method="post" action="index.html">
+        <form method="post" action="/">
             <label for="email"></label>
             <input type="email" name="email" id="email">
             <button type="submit">Sign up</button>
@@ -49,7 +46,6 @@
     </section>
 
 
-    <!-- ***Second page helpfull if someone was better at naming this -->
     <section class="secondPage">
         <article class="secondPageimg1">
             <p>
@@ -81,31 +77,26 @@
     </footer>
 
     <section class="thirdPage">
-        <!--not sure if this is a good setup for the karusel-->
         <div class="slideshowContainer">
 
-            <!-- Full-width images with number and caption text -->
+            <!-- Full-width images with caption text -->
             <div class="mySlides fade">
-                <div class="numberText">1 / 4</div>
-                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1.jpg 1000w" alt="">
+                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1.jpg 1000w" alt=""><!-- add alt="" text-->
                 <div class="text">Caption Text</div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numberText">2 / 4</div>
                 <img src="img/sion2-mobile.jpg" srcset="img/sion2-mobile.jpg 500w,img/sion2.jpg 1000w" alt=""><!-- add alt="" text-->
                 <div class="text">Caption Two</div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numberText">3 / 4</div>
-                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3.jpg 1000w" alt="">
+                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3.jpg 1000w" alt=""><!-- add alt="" text-->
                 <div class="text">Caption Three</div>
             </div>
 
             <div class="mySlides fade">
-                <div class="numberText">4 / 4</div>
-                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4.jpg 1000w" alt=""> 
+                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4.jpg 1000w" alt=""><!-- add alt="" text-->
                 <div class="text">Caption Four</div>
             </div>
 
@@ -115,8 +106,8 @@
         </div>
         <br>
 
-        <!-- The dots/circles -->
-        <div style="text-align:center">
+        <!-- The dots -->
+        <div class="dots">
             <span class="dot one"></span>
             <span class="dot two"></span>
             <span class="dot three"></span>
