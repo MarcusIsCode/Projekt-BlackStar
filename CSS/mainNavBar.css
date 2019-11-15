@@ -54,9 +54,6 @@ nav {
   padding: 0.5em 0.5em 0.5em 1em;
   text-transform: uppercase;
 }
-.showMenu li a {
-  color: #ffffff;
-}
 
 /* change the menu's background when hamburgerIcon is clicked */
 .changeBackground {
@@ -71,15 +68,16 @@ nav {
   right: 0;
 }
 
-/* Change min-width?? */
-@media only screen and (min-width: 1000px) { 
+/* Nav menu in desktop */
+@media only screen and (min-width: 992px) { 
   .menuItems {
     display: block;
   }
-  .hamburgerIcon {
-    display: none;
+  .menuItems li {
+    display: inline-block;
+    padding: 0 1em;
   }
-  .changeBackground {
+  .hamburgerIcon {
     display: none;
   }
 }
