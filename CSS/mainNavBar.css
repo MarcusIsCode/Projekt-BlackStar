@@ -63,7 +63,8 @@ nav {
   background-color: #252525;
   width: 50vw;
   height: 100%;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 0;
   right: 0;
 }
