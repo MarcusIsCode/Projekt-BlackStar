@@ -1,3 +1,5 @@
+'use strict';
+
 const hamburgerIcon = document.querySelector('.hamburgerIcon');
 const menuItems = document.querySelector('.menuItems');
 const menuContainer = document.querySelector('.menu');
