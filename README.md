@@ -11,7 +11,7 @@
 - $ git clone https://github.com/MarcusIsCode/Projekt-BlackStar.git
 - Open the index.html file in your browser.
 
-- Or visit [Project blackstar](https://project-blackstar13.netlify.com/)
+- Or visit [Project BlackStar](https://project-blackstar13.netlify.com/)
 
 ## Crew
 ### Webb developers
