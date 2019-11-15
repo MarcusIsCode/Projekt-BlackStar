@@ -6,9 +6,14 @@
 
 ## Assignment
 
-## Download instructions
+## Installation instructions
+- Clone down the project to you computer:
+- $ git clone https://github.com/MarcusIsCode/Projekt-BlackStar.git
+- Open the index.html file in your browser.
 
-## crew
+- Or visit [Project blackstar](https://project-blackstar13.netlify.com/)
+
+## Crew
 ### Webb developers
 * Emelie Petersson
 * Camilla Kylmänen Sjörén 
@@ -24,4 +29,4 @@
 * Andrè Gillberg 
 
 
-[Project blackstar](https://project-blackstar13.netlify.com/)
+
