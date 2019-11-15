@@ -1,12 +1,11 @@
 
-<img href="http://giphygifs.s3.amazonaws.com/media/11V6rs3BsLzVcs/giphy.gif" width="100%">
-
+<img href="https://media.giphy.com/media/11V6rs3BsLzVcs/giphy.gif" width="100%">
 
 # Project BlackStar
 
 
 ## crew
-### Webbdevelopers
+### Webb developers
 * Emelie Petersson
 * Camilla Kylmänen Sjörén 
 * Marcus Augustsson 
