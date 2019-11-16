@@ -18,13 +18,23 @@ const body = document.body;
             return yScroll / scrollToPercent;
         }
        let scrolling = Math.floor(window.scrollY);
-        let event = yOfScroll(scrolling);
+       let scroll = yOfScroll(scrolling);
 
-        if(event >10 && event < 20){
-            console.log('hello')
+        /**here can you write what's going to hapen the page.
+         * the page have been set up to always be 0 -100 like 
+         * precentag or almost 100.
+         * so when you scroll and reach you can make things happen.
+             **/
+
+        if(scroll >10){
+            formEmail.style.opacity ="0";
+        }else{
+             formEmail.style.opacity ="1";
         }
-        
-     console.log(event)
+        if(scroll > 80){
+            formEmail.style.opacity = "1";
+        }
+     console.log(scroll)
 })
 
 
