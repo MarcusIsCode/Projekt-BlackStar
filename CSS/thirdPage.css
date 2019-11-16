@@ -18,36 +18,33 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+  padding: 0.8em;
+  color: #000000;
+  font-size: 2em;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.2em 0.2em 0;
   user-select: none;
 }
 
 /* Position the next button to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.2em 0 0 0.2em;
 }
 
 /* Next & previous buttons hover effect */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
 }
 
 /* Caption text */
 .text {
   color: #000000;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  font-size: 1em;
+  padding: 0.5em 1em;
   width: 100%;
   text-align: center;
 }
@@ -58,9 +55,9 @@
 }
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 0.7em;
+  width: 0.7em;
+  margin: 0.2em 0.2em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
