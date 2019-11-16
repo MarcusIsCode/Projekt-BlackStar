@@ -3,14 +3,17 @@
 .frontPage {
     background-color: rgb(212, 209, 209);
 }
-.frontPage form {
-    background-color: rgb(158, 247, 243);
-    position: absolute;
-    width: 70%;
-    bottom: 2%;
-    left: 15%;
-    padding: 0.5rem;
-}
 .frontPage h1 {
     width: 60%;
 }
+
+
+.mailForm{
+    background-color: #C4C4C4 ;
+    width: 70%;
+    left: 15%;
+    padding: 0.5rem;
+    position: fixed;
+    top:90vh;
+    z-index:1;
+}   
