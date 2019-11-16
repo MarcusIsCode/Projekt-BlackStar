@@ -18,25 +18,25 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 13%;
   width: auto;
-  padding: 0.8em;
+  padding: 0.2em;
   color: #000000;
-  font-size: 2em;
+  font-size: 1.8em;
   transition: 0.6s ease;
-  border-radius: 0 0.2em 0.2em 0;
+  border-radius: 0 0.1em 0.1em 0;
   user-select: none;
 }
 
 /* Position the next button to the right */
 .next {
   right: 0;
-  border-radius: 0.2em 0 0 0.2em;
+  border-radius: 0.1em 0 0 0.1em;
 }
 
 /* Next & previous buttons hover effect */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.575);
   color: #ffffff;
 }
 
@@ -91,5 +91,13 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+/* Slideshow in desktop */
+@media only screen and (min-width: 992px) { 
+  .prev, .next {
+    top: 40%;
+    padding: 0.8em;
   }
 }
