@@ -42,9 +42,10 @@ const body = document.body;
         //makes the navbar go upp and down;
         /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
         if(this.oldScroll > this.scrollY){
-            navBarScroll.style.top ='-0.5em'
+            navBarScroll.style.top ='-0em';
+            navBarScroll.style.backgroundColor = '#252525';
         }else{
-            navBarScroll.style.top = '-10em'
+            navBarScroll.style.top = '-10em';
         };
         this.oldScroll = this.scrollY;
 })
