@@ -31,7 +31,7 @@ const body = document.body;
         }else{
              formEmail.style.opacity ="1";
         }
-        if(scroll > 80){
+        if(scroll > 88){
             formEmail.style.opacity = "1";
         }
      console.log(scroll)
