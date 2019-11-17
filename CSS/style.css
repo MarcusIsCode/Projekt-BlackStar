@@ -1,6 +1,7 @@
 /** General styling**/
 * {
-    box-sizing:border-box
+    box-sizing:border-box;
+    font-family: aktiv-grotesk, sans-serif;
 }
 section {
     height: 100vh;
