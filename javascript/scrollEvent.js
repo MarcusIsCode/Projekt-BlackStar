@@ -1,19 +1,21 @@
 const formEmail = document.querySelector('.mailForm');
+const navBarScroll = document.querySelector('nav');
 const body = document.body;
 
     window.addEventListener('scroll', ()=>{
+        
         /* the size need to be uppdated therfore the variables is
         the event becuse when scrolled the total scrollheight is
         uppdated and can be calculated with scroll event   
         */
         //converting the page to precentage
-        let totalScrollHeight = body.scrollHeight - window.innerHeight
+        let totalScrollHeight = body.scrollHeight - window.innerHeight;
         const scrollToPercent = totalScrollHeight / 100; //  1/100
         
         //just to see the total scroll height in precentage
         //const totalScroll = totalScrollHeight / scrollToPercent; // 100/100
         
-        //converting the y scroll position to precentag
+        //converting the y scroll position to precentage
         const yOfScroll = (yScroll) => {
             return yScroll / scrollToPercent;
         }
@@ -26,7 +28,7 @@ const body = document.body;
          * so when you scroll and reach you can make things happen.
              **/
 
-        if(scroll >10){
+        if(scroll >5){
             formEmail.style.opacity ="0";
         }else{
              formEmail.style.opacity ="1";
@@ -34,7 +36,15 @@ const body = document.body;
         if(scroll > 88){
             formEmail.style.opacity = "1";
         }
-     console.log(scroll)
+     //console.log(scroll)
+        //makes the navbar go upp and down;
+        /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
+        if(this.oldScroll > this.scrollY){
+            navBarScroll.style.top ='-0.5em'
+        }else{
+            navBarScroll.style.top = '-10em'
+        };
+        this.oldScroll = this.scrollY;
 })
 
 
