@@ -23,13 +23,15 @@ const body = document.body;
        let scroll = yOfScroll(scrolling);
 
         /**here can you write what's going to hapen the page.
-         * the page have been set up to always be 0 -100 like 
-         * precentag or almost 100.
-         * so when you scroll and reach you can make things happen.
+          the page have been set up to always be 0 -100 like 
+          precentag or almost 100.
+          so when you scroll and reach you can make things happen
+          with an if statment.
              **/
 
         if(scroll >5){
             formEmail.style.opacity ="0";
+
         }else{
              formEmail.style.opacity ="1";
         }

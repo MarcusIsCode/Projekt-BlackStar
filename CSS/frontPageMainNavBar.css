@@ -7,7 +7,7 @@ nav {
   align-items: center;
   padding: 0 1em;
   background: red;
-  position: fixed;
+  position: relative;
 }
 .menuItems {
   display: none;
