@@ -29,6 +29,21 @@ const body = document.body;
           with an if statment.
              **/
 
+
+
+        if(scroll > 1){
+            navBarScroll.style.position = 'fixed';
+            if (this.oldScroll > this.scrollY) {
+                navBarScroll.style.top = '-0.5em'
+            } else {
+                navBarScroll.style.top = '-10em'
+            };
+            this.oldScroll = this.scrollY;
+        }else{
+            navBarScroll.style.position = 'relative';
+        }
+
+
         if(scroll >5){
             formEmail.style.opacity ="0";
 
@@ -38,15 +53,10 @@ const body = document.body;
         if(scroll > 88){
             formEmail.style.opacity = "1";
         }
-     //console.log(scroll)
+     console.log(scroll)
         //makes the navbar go upp and down;
         /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
-        if(this.oldScroll > this.scrollY){
-            navBarScroll.style.top ='-0.5em'
-        }else{
-            navBarScroll.style.top = '-10em'
-        };
-        this.oldScroll = this.scrollY;
+     
 })
 
 
