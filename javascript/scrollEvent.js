@@ -30,6 +30,8 @@ const body = document.body;
              **/
 
 
+        //makes the navbar go upp and down;
+        /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
 
         if(scroll > 1){
             navBarScroll.style.position = 'fixed';
@@ -53,10 +55,7 @@ const body = document.body;
         if(scroll > 88){
             formEmail.style.opacity = "1";
         }
-     console.log(scroll)
-        //makes the navbar go upp and down;
-        /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
-     
+     // console.log(scroll)
 })
 
 
