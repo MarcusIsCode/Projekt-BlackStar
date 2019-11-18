@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,13 @@
     <title>Project blackstar</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/frontPage.css">
-   <link rel="stylesheet" href="CSS/secondPage.css"> 
+    <link rel="stylesheet" href="CSS/secondPage.css">
     <link rel="stylesheet" href="CSS/thirdPage.css">
-    <link rel="stylesheet" href="CSS/lastPage.css">
+    <link rel="stylesheet" href="CSS/fourthPage.css">
+    <link rel="stylesheet" href="CSS/fifthPage.css">
+    <link rel="stylesheet" href="CSS/sixthPage.css">
+    <link rel="stylesheet" href="CSS/seventhPage.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/frontPageMainNavBar.css">
     <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
 </head>
@@ -17,15 +22,17 @@
 <body>
 
     <section class="frontPage">
-        <nav class="mainNav"> 
+        <nav class="mainNav">
             <img src="img/logo.png">
             <div class="menu">
-                <div class="hamburgerIcon"> <!-- Hamburger menu -->
+                <div class="hamburgerIcon">
+                    <!-- Hamburger menu -->
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                 </div>
-                <ul class="menuItems"> <!--These are displayed in desktop and hidden in mobile -->
+                <ul class="menuItems">
+                    <!--These are displayed in desktop and hidden in mobile -->
                     <li><a href="#">Functions</a></li> <!-- add anchor links to sections in the site -->
                     <li><a href="#">Performance</a></li>
                     <li><a href="#">Folder</a></li>
@@ -35,14 +42,14 @@
             </div>
         </nav>
 
-        <h1>You are special. BlackStar.</h1> 
+        <h1>You are special. BlackStar.</h1>
 
         <!-- **** scrollevent.js, fronPage.css?-->
-        <form  method="post" action="/">
-           <div class="mailForm" > 
-            <label for="email"></label>
-            <input type="email" name="email" id="email">
-            <button type="submit">Sign up</button>
+        <form method="post" action="/">
+            <div class="mailForm">
+                <label for="email"></label>
+                <input type="email" name="email" id="email">
+                <button type="submit">Sign up</button>
         </form>
         <form method='get' action="index.html">
             <button typ="submit" id="download">Download!</button>
@@ -59,6 +66,9 @@
             </p>
 
         </article>
+    </section>
+
+    <section class="thirdPage">
         <article class="secondPageimg2">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque eum iste maiores! Nihil, iusto neque
@@ -66,6 +76,9 @@
             </p>
 
         </article>
+    </section>
+
+    <section class="fourthPage">
         <article class="secondPageimg3">
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium ad unde id hic esse a itaque
@@ -76,51 +89,63 @@
     </section>
 
     <!-- random footer appears, guessing it's when you have scrolled down a bit-->
-    <footer>
+    <div class="download">
         <button type="submit" id="download2">Download!</button>
         <img src="#">
-    </footer>
+    </div>
 
-    <section class="thirdPage">
+    <section class="fifthPage">
         <div class="slideshowContainer">
 
             <!-- Full-width images with caption text -->
             <div class="mySlides fade">
-                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1-desktop.jpg 1500w" alt=""><!-- add alt="" text-->
+                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1-desktop.jpg 1500w" alt="">
+                <!-- add alt="" text-->
                 <div class="text">
                     <h2>Caption one</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis
+                        cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.
+                    </p>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <img src="img/sion2-mobile.jpg" srcset="img/sion2-mobile.jpg 500w,img/sion2-desktop.jpg 1500w" alt=""><!-- add alt="" text-->
+                <img src="img/sion2-mobile.jpg" srcset="img/sion2-mobile.jpg 500w,img/sion2-desktop.jpg 1500w" alt="">
+                <!-- add alt="" text-->
                 <div class="text">
                     <h2>Caption two</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis
+                        cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.
+                    </p>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3-desktop.jpg 1500w" alt=""><!-- add alt="" text-->
+                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3-desktop.jpg 1500w" alt="">
+                <!-- add alt="" text-->
                 <div class="text">
                     <h2>Caption three</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis
+                        cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.
+                    </p>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4-desktop.jpg 1500w" alt=""><!-- add alt="" text-->
+                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4-desktop.jpg 1500w" alt="">
+                <!-- add alt="" text-->
                 <div class="text">
                     <h2>Caption four</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt aut quis obcaecati corporis
+                        cupiditate quos sequi, placeat necessitatibus quibusdam nobis soluta reiciendis vel quod odio.
+                    </p>
                 </div>
             </div>
 
             <!-- Next and previous buttons -->
             <a class="changeSlide prev">&#10094;</a>
             <a class="changeSlide next">&#10095;</a>
-            
+
             <!-- The dots -->
             <div class="dots">
                 <span class="dot one"></span>
@@ -131,12 +156,20 @@
         </div>
     </section>
 
-    <section class="lastPage">
+    <section class="sixthPage">
         <h2>Contiune with the <br> Blackstar experience</h2>
 
         <!-- we can it to a coustomised button or regular button-->
         <div class="downloadFolder" id="download">Download our folder here!</div>
     </section>
+
+    <section class="seventhPage">
+
+    </section>
+
+    <footer>
+
+    </footer>
 
     <script src="javascript/main.js"></script>
     <script src="javascript/slideshow.js"></script>

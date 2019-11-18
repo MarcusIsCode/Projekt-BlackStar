@@ -36,7 +36,8 @@ const body = document.body;
         if(scroll > 1){
             navBarScroll.style.position = 'fixed';
             if (this.oldScroll > this.scrollY) {
-                navBarScroll.style.top = '-0.5em'
+                navBarScroll.style.top = '-0em'
+                navBarScroll.style.backgroundColor = "#252525";
             } else {
                 navBarScroll.style.top = '-10em'
             };
