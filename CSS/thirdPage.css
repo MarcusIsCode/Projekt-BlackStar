@@ -100,4 +100,7 @@
     top: 40%;
     padding: 0.8em;
   }
+  .slideshowContainer {
+    max-width: 80%;
+  }
 }
