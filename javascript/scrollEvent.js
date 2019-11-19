@@ -1,4 +1,4 @@
-const formEmail = document.querySelector('');
+//const formEmail = document.querySelector('');
 const navBarScroll = document.querySelector('nav');
 const body = document.body;
 
