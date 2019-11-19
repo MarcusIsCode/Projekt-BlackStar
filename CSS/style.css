@@ -22,6 +22,7 @@
 * {
     box-sizing:border-box;
     font-family: aktivGrotesk, sans-serif;
+    color: #ffffff;
 }
 section {
     height: 100vh;
@@ -29,7 +30,6 @@ section {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
 }
 
 /* Background images to sections */
@@ -48,7 +48,6 @@ a {
 .backgroundImage + p {
     position: relative;
     z-index: 1;
-    color: #ffffff;
     margin: 0;
 }
 
