@@ -21,7 +21,7 @@
 
 <body>
 
-    <section class="frontPage">
+    <section class="frontPage" id="one">
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
@@ -56,10 +56,13 @@
                 <input type="email" name="email" id="email" placeholder="your@email.com">
                 <button type="submit">Sign up</button>
         </form>
+        <button data-goto="two">
+            <div class="arrowDown"></div>
+        </button>
     </section>
 
 
-    <section class="secondPage">
+    <section class="secondPage" id="two">
         <div class="backgroundImage">
             <picture>
                 <source srcset="Images\Sektion2bg.jpg" media="(min-width: 992px)" />
@@ -71,9 +74,12 @@
             as one of the world’s most innovative
             companies.
         </p>
+        <button data-goto="three">
+            <div class="arrowDown"></div>
+        </button>
     </section>
 
-    <section class="thirdPage">
+    <section class="thirdPage" id="three">
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
@@ -81,13 +87,14 @@
             </picture>
         </div>
         <div class="blurr">
-            <h2>Experience</h2>
-            <p>hejhej</p>
             <p>Oldsmobile is very much alive and well, as one of the world’s most innovative companies.</p>
         </div>
+        <button data-goto="four">
+            <div class="arrowDown"></div>
+        </button>
     </section>
 
-    <section class="fourthPage">
+    <section class="fourthPage" id="four">
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
@@ -98,7 +105,9 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium ad unde id hic esse a itaque
             ipsa dolorum! Mollitia, sunt fugit! Excepturi, sint officia.
         </p>
-
+        <button data-goto="five">
+            <div class="arrowDown"></div>
+        </button>
     </section>
 
     <!-- ** Download folder-->
@@ -109,7 +118,7 @@
             </form>
         </div>
         
-    <section class="fifthPage">
+    <section class="fifthPage" id="five">
         <div class="slideshowContainer">
 
             <!-- Full-width images with caption text -->
@@ -170,9 +179,13 @@
                 <span class="dot four"></span>
             </div>
         </div>
+
+        <button data-goto="six">
+            <div class="arrowDown"></div>
+        </button>
     </section>
 
-    <section class="sixthPage">
+    <section class="sixthPage" id="six">
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
@@ -182,17 +195,21 @@
         <h2>Contiune with the <br> Blackstar experience</h2>
 
         <!-- we can it to a coustomised button or regular button-->
-                 
-           </section>
+        <button data-goto="seven">
+            <div class="arrowDown"></div>
+        </button>  
+    </section>
 
-    <section class="seventhPage">
+    <section class="seventhPage" id="seven">
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
                 <img src="img/frontPage-mobile.jpg">
             </picture>
         </div>
-
+        <button data-goto="one">
+            <div class="arrowDown"></div>
+        </button> 
     </section>
 
     <footer>
@@ -203,6 +220,7 @@
     <script src="javascript/slideshow.js"></script>
     <script src="javascript/hamburgerMenu.js"></script>
     <script src="javascript/scrollEvent.js"></script>
+    <script src="javascript/downArrowButton.js"></script>
 </body>
 
 </html>
