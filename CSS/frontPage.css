@@ -32,7 +32,7 @@ h1 {
     margin: 0.4em;
 }
 .mailForm input {
-    background-color: #ffffff;
+    color: rgb(107, 105, 105);
     width: 60%;
 }
 .mailForm button {
