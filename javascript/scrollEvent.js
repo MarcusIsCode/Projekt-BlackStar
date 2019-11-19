@@ -1,4 +1,4 @@
-const formEmail = document.querySelector('.mailForm');
+//const formEmail = document.querySelector('');
 const navBarScroll = document.querySelector('nav');
 const body = document.body;
 
@@ -43,18 +43,18 @@ const body = document.body;
             };
             this.oldScroll = this.scrollY;
         }else{
-            navBarScroll.style.position = 'relative';
+            navBarScroll.style.backgroundColor = "rgba(0,0,0,0)";
         }
 
 
         if(scroll >5){
-            formEmail.style.opacity ="0";
+            //formEmail.style.opacity ="0";
 
         }else{
-             formEmail.style.opacity ="1";
+             //formEmail.style.opacity ="1";
         }
         if(scroll > 88){
-            formEmail.style.opacity = "1";
+            //formEmail.style.opacity = "1";
         }
      // console.log(scroll)
 })

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project blackstar</title>
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/frontPage.css">
     <link rel="stylesheet" href="CSS/secondPage.css">
@@ -16,12 +17,18 @@
     <link rel="stylesheet" href="CSS/seventhPage.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/frontPageMainNavBar.css">
-    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
 </head>
 
 <body>
 
     <section class="frontPage">
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/frontPage-mobile.jpg">
+            </picture>
+        </div>
+
         <nav class="mainNav">
             <img src="img/logo.png">
             <div class="menu">
@@ -45,49 +52,53 @@
         <h1>You are special. BlackStar.</h1>
 
         <!-- **** scrollevent.js, fronPage.css?-->
-        <form method="post" action="/">
-            <div class="mailForm">
+        <form class="mailForm" method="post" action="/">
                 <label for="email"></label>
                 <input type="email" name="email" id="email">
                 <button type="submit">Sign up</button>
         </form>
-        <form method='get' action="index.html">
-            <button typ="submit" id="download">Download!</button>
-        </form>
-        </div>
     </section>
 
 
     <section class="secondPage">
-        <article class="secondPageimg1">
-            <p>
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="Images\Sektion2bg.jpg" media="(min-width: 992px)" />
+                <img src="Images\Sektion2bg.jpg">
+            </picture>
+        </div>
+        <p>
             Oldsmobile is very much alive and well,
             as one of the world’s most innovative
             companies.
-            </p>
-            
-        </article>
-            <img src="Images\Sektion2bg.jpg" ">
+        </p>
     </section>
 
     <section class="thirdPage">
-        <article class="secondPageimg2">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque eum iste maiores! Nihil, iusto neque
-                dolores rerum tenetur debitis qui ipsa quia vitae sint.
-            </p>
-
-        </article>
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/frontPage-mobile.jpg">
+            </picture>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque eum iste maiores! Nihil, iusto neque
+            dolores rerum tenetur debitis qui ipsa quia vitae sint.
+        </p>
     </section>
 
     <section class="fourthPage">
-        <article class="secondPageimg3">
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium ad unde id hic esse a itaque
-                ipsa dolorum! Mollitia, sunt fugit! Excepturi, sint officia.
-            </p>
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/frontPage-mobile.jpg">
+            </picture>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laudantium ad unde id hic esse a itaque
+            ipsa dolorum! Mollitia, sunt fugit! Excepturi, sint officia.
+        </p>
 
-        </article>
     </section>
 
     <!-- random footer appears, guessing it's when you have scrolled down a bit-->
@@ -101,7 +112,8 @@
 
             <!-- Full-width images with caption text -->
             <div class="mySlides fade">
-                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1-desktop.jpg 1500w" alt="">
+                <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1-desktop.jpg 1500w"
+                    sizes="(max-width: 992px) 500px, 1500px" alt="">
                 <!-- add alt="" text-->
                 <div class="text">
                     <h2>Caption one</h2>
@@ -159,6 +171,12 @@
     </section>
 
     <section class="sixthPage">
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/frontPage-mobile.jpg">
+            </picture>
+        </div>
         <h2>Contiune with the <br> Blackstar experience</h2>
 
         <!-- we can it to a coustomised button or regular button-->
@@ -166,6 +184,12 @@
     </section>
 
     <section class="seventhPage">
+        <div class="backgroundImage">
+            <picture>
+                <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/frontPage-mobile.jpg">
+            </picture>
+        </div>
 
     </section>
 

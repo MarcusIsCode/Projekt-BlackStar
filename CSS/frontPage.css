@@ -7,8 +7,10 @@ h1 {
     position: relative;
     top: 5em;
     width: 60%;
+    z-index: 1;
+    color: #ffffff;
+    margin: 0 auto;
 }
-
 
 .mailForm{
     background-color: #C4C4C4;
