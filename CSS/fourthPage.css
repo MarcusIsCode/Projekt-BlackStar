@@ -1,4 +1,25 @@
 .download {
-    background-color: grey;
+    background: black;
     height: 3rem;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.download button {
+   all:unset;
+   width:6em;
+   height:2em;
+   background: #45BF55;;
+    margin: 0;
+    padding:0;
+   border-radius: 0.1em;
+    text-align: center;
+    
+}
+.download p{
+    margin:0;
+    padding:0;
 }
