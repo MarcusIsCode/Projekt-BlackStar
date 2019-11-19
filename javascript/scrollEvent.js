@@ -36,17 +36,23 @@ const body = document.body;
         if(scroll > 1){
             navBarScroll.style.position = 'fixed';
             if (this.oldScroll > this.scrollY) {
-                navBarScroll.style.top = '-0em'
+                navBarScroll.style.top = '0em'
                 navBarScroll.style.backgroundColor = "#252525";
             } else {
                 navBarScroll.style.top = '-10em'
             };
             this.oldScroll = this.scrollY;
+
         }else{
             navBarScroll.style.backgroundColor = "rgba(0,0,0,0)";
         }
 
+        if(scroll > 48 && scroll < 50){
+            formDownload.style.position = 'fixed';
 
+        }else{
+            formDownload.style.position='absolute';
+        }     
      console.log(scroll)
 })
 
