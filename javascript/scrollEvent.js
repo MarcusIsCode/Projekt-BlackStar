@@ -48,13 +48,13 @@ const body = document.body;
 
 
         if(scroll >5){
-            formEmail.style.opacity ="0";
+            //formEmail.style.opacity ="0";
 
         }else{
-             formEmail.style.opacity ="1";
+             //formEmail.style.opacity ="1";
         }
         if(scroll > 88){
-            formEmail.style.opacity = "1";
+            //formEmail.style.opacity = "1";
         }
      // console.log(scroll)
 })
