@@ -1,7 +1,7 @@
-//const formEmail = document.querySelector('');
+const formDownload = document.querySelector('.download');
 const navBarScroll = document.querySelector('nav');
 const body = document.body;
-
+  
     window.addEventListener('scroll', ()=>{
         
         /* the size need to be uppdated therfore the variables is
@@ -47,16 +47,7 @@ const body = document.body;
         }
 
 
-        if(scroll >5){
-            //formEmail.style.opacity ="0";
-
-        }else{
-             //formEmail.style.opacity ="1";
-        }
-        if(scroll > 88){
-            //formEmail.style.opacity = "1";
-        }
-     // console.log(scroll)
+     console.log(scroll)
 })
 
 
