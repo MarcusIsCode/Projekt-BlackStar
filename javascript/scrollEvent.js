@@ -1,4 +1,4 @@
-const formEmail = document.querySelector('.download');
+const formEmail = document.querySelector('');
 const navBarScroll = document.querySelector('nav');
 const body = document.body;
 
@@ -34,6 +34,7 @@ const body = document.body;
         /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
 
         if(scroll > 1){
+            navBarScroll.style.position = 'fixed';
             if (this.oldScroll > this.scrollY) {
                 navBarScroll.style.top = '-0em'
                 navBarScroll.style.backgroundColor = "#252525";
