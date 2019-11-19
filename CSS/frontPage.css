@@ -13,11 +13,11 @@ h1 {
 }
 
 .mailForm{
+    position: absolute;
+    bottom: 1em;
+    margin: 0 auto;
     background-color: #C4C4C4;
     width: 70%;
-    left: 15%;
     padding: 0.5rem;
-    position: fixed;
-    top:90vh;
     z-index:1;
 }   
