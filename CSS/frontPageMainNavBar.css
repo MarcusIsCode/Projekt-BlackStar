@@ -18,11 +18,10 @@ nav {
 
 /* Hamburger icon */
 .hamburgerIcon {
+  width: 2rem;
   z-index: 2;
   position: absolute;
-  right: 1em;
-  display: inline-block;
-  width: 2rem;
+  right: 1.2em;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -55,10 +54,13 @@ nav {
   top: 3em;
   width: 50vw;
 }
+.showMenu {
+  margin-top: 4em;
+}
 .showMenu li {
   text-align: left;
-  font-size: 1.2rem;
-  padding: 0.5em 0.5em 0.5em 1em;
+  font-size: 1rem;
+  padding: 0.5em 0.5em 1em 2em;
   text-transform: uppercase;
 }
 
@@ -93,6 +95,11 @@ nav {
 }
 
 /* Animations on mobile menu */
+@keyframes slide-in {
+  0% { 
+    transform: translateX(100%);
+  }
+}
 @-webkit-keyframes slide-in {
   0% { 
     -webkit-transform: translateX(100%);

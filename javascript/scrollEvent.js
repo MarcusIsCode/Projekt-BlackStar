@@ -32,10 +32,10 @@ const body = document.body;
 
         //makes the navbar go upp and down;
         /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
-
+       
         if(scroll > 1){
             navBarScroll.style.position = 'fixed';
-            if (this.oldScroll > this.scrollY) {
+            if (this.oldScroll > this.scrollY || hamburgerIcon.classList.contains('change')) {
                 navBarScroll.style.top = '0em'
                 navBarScroll.style.backgroundColor = "#252525";
             } else {
