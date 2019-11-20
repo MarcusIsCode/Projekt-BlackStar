@@ -8,8 +8,8 @@
     justify-content: flex-end;
 }
 h1 {
+    font-family: aktivGroteskLight;
     text-align: center;
-    font-weight: lighter;
     width: 80%;
     z-index: 1;
 }
@@ -23,7 +23,6 @@ h1 {
     height: 6em;
     width: 80%;
     padding: 0.5rem;
-    margin: 1em 0 3em;
     z-index:1;
 }
 .mailForm label {

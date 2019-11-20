@@ -1,27 +1,25 @@
-/** General styling**/
+/* Fonts */
 @font-face {
-    font-family: aktivGrotesk;
+    font-family: aktivGroteskMedium;
     src: url(../Fonts/AktivGrotesk-Medium.otf);
-    font-weight: bold;
 }
 @font-face {
-    font-family: aktivGrotesk;
+    font-family: aktivGroteskBold;
     src: url(../Fonts/AktivGrotesk-Bold.otf);
-    font-weight: bolder;
 }
 @font-face {
-    font-family: aktivGrotesk;
+    font-family: aktivGroteskLight;
     src: url(../Fonts/AktivGrotesk-Light.otf);
-    font-weight: lighter;
 }
 @font-face {
     font-family: aktivGrotesk;
     src: url(../Fonts/AktivGrotesk-Regular.otf);
 }
 
+/* General styling */
 * {
     box-sizing:border-box;
-    font-family: aktivGrotesk, sans-serif;
+    font-family: aktivGroteskLight, sans-serif;
     color: #ffffff;
     scroll-behavior: smooth;
 }
