@@ -79,6 +79,20 @@ nav {
   animation: slide-in 0.5s forwards;
   -webkit-animation: slide-in 0.5s forwards;
 }
+.navShow{
+  top:0em;
+  background:#252525;
+  transition: top ease-in-out 0.4s;
+}
+.navHide{
+  top:-10em;
+  transition: top ease-in-out 0.4s;
+}
+.oopacityNav{
+  background-color:rgba(0,0,0,0);
+  top:0em;
+} 
+
 
 /* Nav menu in desktop */
 @media only screen and (min-width: 992px) { 
