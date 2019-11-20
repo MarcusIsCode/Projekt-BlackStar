@@ -22,6 +22,7 @@
     font-family: aktivGroteskLight, sans-serif;
     color: #ffffff;
     scroll-behavior: smooth;
+    margin: 0px;
 }
 section {
     height: 100vh;
