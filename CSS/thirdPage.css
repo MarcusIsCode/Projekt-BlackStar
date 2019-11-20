@@ -1,6 +1,8 @@
 .thirdPage {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 } 
 
 .thirdPage .blurr {
@@ -18,9 +20,25 @@
 }
 
 @media only screen and (min-width: 992px) {
+.thirdPage {
+    align-items: flex-end;
+}
+
+.thirdPage .blurr {
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw;
+}
+
 .thirdPage p {
-    display: inline-block;
-    width: 30em;
-    backdrop-filter: blur(10px);
+    display: inline;
+    width: 50vw;
+    /*backdrop-filter: blur(0px);*/
+}
+
+.thirdPage .bottomButton {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
 }
