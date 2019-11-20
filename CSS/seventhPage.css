@@ -1,7 +1,56 @@
 .seventhPage {
+    height: 120vh;
     background-color: rgba(0, 0, 0, 0.404);
 }
-
 .aboutBackground {
     z-index: -1;
+}
+.aboutBackground img {
+    height: 120vh;
+}
+
+/* Article */
+.seventhPage article {
+    margin: 0 1em;
+}
+.seventhPage article h2 {
+    padding: 2em 0 1em;
+}
+.seventhPage article p {
+    padding-bottom: 1em;
+}
+
+/* Random Blackstar title */
+.blackstarHeading {
+    padding: 2em 1em 0.5em;
+    text-transform: uppercase;
+}
+
+/* Email form */
+.seventhPage .mailForm {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+}
+.seventhPage .mailForm label {
+    text-align: left;
+    padding-left: 1.2em;
+}
+
+/* Footer */
+.seventhPage footer {
+    margin: 3em 1em 0;
+}
+.seventhPage h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+.seventhPage ul, .seventhPage p {
+    font-size: 0.8em;
+}
+.seventhPage ul li {
+    padding: 0.3em 0;
+}
+.seventhPage footer img {
+    width: 2em;
 }
