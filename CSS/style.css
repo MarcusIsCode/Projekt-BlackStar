@@ -87,3 +87,9 @@ button {
     }
 }
 
+/*positioning of down button*/
+.bottomButton {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
