@@ -8,7 +8,7 @@ const menuContainer = document.querySelector('.menu');
 hamburgerIcon.addEventListener('click', () => {
     menuItems.classList.toggle('showMenu');
     menuContainer.classList.toggle('changeBackground');
-    hamburgerIcon.classList.toggle("change");
+    hamburgerIcon.classList.toggle('change');
 }) 
 
 window.addEventListener('resize', function() {

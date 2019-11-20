@@ -71,6 +71,8 @@ nav {
   z-index: 1;
   top: 0;
   right: 0;
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
 }
 
 /* Nav menu in desktop */
@@ -85,4 +87,9 @@ nav {
   .hamburgerIcon {
     display: none;
   }
+}
+
+/* Animations on mobile menu */
+@-webkit-keyframes slide-in {
+  0% { -webkit-transform: translateX(100%); }
 }
