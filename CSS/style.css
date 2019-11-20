@@ -22,6 +22,7 @@
     font-family: aktivGroteskLight, sans-serif;
     color: #ffffff;
     scroll-behavior: smooth;
+    margin: 0px;
 }
 section {
     height: 100vh;
@@ -30,6 +31,10 @@ section {
 }
 a {
     text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 /* Background images to sections */
@@ -49,6 +54,38 @@ a {
     position: relative;
     z-index: 1;
     margin: 0;
+}
+
+/* Email form (on front page and last page) */
+.mailForm{
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 1em;
+    background-color: #252525;
+    height: 6em;
+    width: 80%;
+    padding: 0.5em;
+    z-index:1;
+}
+.mailForm label {
+    display: block;
+    padding: 0.8em 0 0.6em 0;
+}
+.mailForm input {
+    all: unset;
+    text-align: left;
+    padding-left: 0.5em;
+    background-color: #ffffff;
+    color: rgb(107, 105, 105);
+    width: 60%;
+    height: 2em;
+}
+.mailForm button {
+    all: unset;
+    width: 30%;
+    height: 2em;
+    border-radius: 0.1em;
+    background-color: #45BF55;
 }
 
 /*downArrowButton*/
@@ -87,3 +124,9 @@ button {
     }
 }
 
+/*positioning of down button*/
+.bottomButton {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
