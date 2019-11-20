@@ -11,7 +11,7 @@
     padding: 2em;
     height: 20vh;
     width: 100vw;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
     overflow: hidden;
 }
 
@@ -26,14 +26,14 @@
 
 .thirdPage .blurr {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-content: flex-start;
     width: 40vw;
 }
 
 .thirdPage p {
     display: inline;
     width: 50vw;
-    /*backdrop-filter: blur(0px);*/
 }
 
 .thirdPage .bottomButton {
