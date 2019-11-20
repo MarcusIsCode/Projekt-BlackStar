@@ -63,7 +63,14 @@ button {
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+/* for the form buttons added the class to the buttons*/
+.greenBtn:hover{
+    background-color: #168039;
+}
 
+.greenBtn:active{
+    background-color: #044D29;
+}
 .arrowDown {
     display: inline-block;
     width: 20px;
