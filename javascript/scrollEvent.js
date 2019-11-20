@@ -47,7 +47,7 @@ const body = document.body;
             navBarScroll.style.backgroundColor = "rgba(0,0,0,0)";
         }
 
-        if(scroll > 48 && scroll < 50){
+        if(scroll > 48 && scroll < 82){
             formDownload.style.position = 'fixed';
 
         }else{
