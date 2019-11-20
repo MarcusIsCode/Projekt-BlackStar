@@ -7,4 +7,3 @@ downloadButton.addEventListener('click',()=>{
 
     
 }) 
-console.log(downloadButton);

@@ -1,5 +1,4 @@
 .download {
-    position: absolute;
     background: black;
     height: 3.2em;
     width:100%;
@@ -10,16 +9,17 @@
     bottom:0;
     z-index:3;
 }
-
+.downloadFixed{position: fixed;}
+.downloadAbsolute{position: absolute;}
 .download button {
    all:unset;
    width:6em;
    height:2em;
    background: #45BF55;;
-    margin: 0;
-    padding:0;
+   margin: 0;
+   padding:0;
    border-radius: 0.1em;
-    text-align: center;
+   text-align: center;
     
 }
 .download p{
