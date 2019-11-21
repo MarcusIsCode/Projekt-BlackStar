@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: flex-end;
     bottom: 0;
-    z-index: 11;
+    z-index: 3;
 }
 .downloadFixed{position: fixed;}
 .downloadAbsolute{position: absolute;}
