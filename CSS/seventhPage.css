@@ -59,7 +59,7 @@
 
 /* Arrow */
 .arrowUpp {
-    transform: rotate(315deg);
+    transform: rotate(315deg); /* Makes the arrow point up */
 }
 
 /* Media queries for desktop */
