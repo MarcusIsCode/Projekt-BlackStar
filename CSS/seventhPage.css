@@ -1,6 +1,6 @@
 .seventhPage {
     height: 120vh;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .aboutBackground {
     z-index: -1;
@@ -22,19 +22,20 @@
 
 /* Random Blackstar title */
 .blackstarHeading {
-    padding: 2em 1em 0.5em;
+    padding: 2em 0 0.5em;
     text-transform: uppercase;
 }
 
 /* Email form */
 .seventhPage .mailForm {
+    text-align: left;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
-.seventhPage .mailForm label {
-    text-align: left;
-    padding-left: 1.2em;
+.seventhPage .mailForm button {
+    text-align: center;
 }
 
 /* Footer */
@@ -53,4 +54,43 @@
 }
 .seventhPage footer img {
     width: 2em;
+    margin: 1em 0.5em 1em 0;
+}
+
+/* Arrow */
+.arrowUpp {
+    transform: rotate(315deg); /* Makes the arrow point up */
+}
+
+/* Media queries for desktop */
+@media only screen and (min-width: 992px) { 
+    /* Change display and height of section */
+    .seventhPage {
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .aboutBackground, .aboutBackground img {
+        height: 80vh;
+    }
+    .seventhPage article, .seventhPage footer {
+        width: 40%;
+    }
+    /* Footer  */
+    .seventhPage footer {
+        text-align: center;
+        margin: 0;
+    }
+    .seventhPage ul, .seventhPage p {
+        font-size: 1em;
+    }
+    .seventhPage footer h3 {
+        font-size: 1.5em;
+    }
+    /* Arrow */
+    .bottomButton {
+        position: absolute;
+        bottom: 1em;
+    }
 }
