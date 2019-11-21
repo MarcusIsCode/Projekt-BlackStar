@@ -61,8 +61,20 @@ nav {
 .showMenu li {
   text-align: left;
   font-size: 1rem;
-  padding: 0.5em 0.5em 1em 2em;
+  padding: 0.7em 0.5em 0.7em 2em;
   text-transform: uppercase;
+}
+.showMenu .preOrder {
+  padding-left: 1em;
+}
+.showMenu .highlight {
+  border: 1px solid #ffffff;
+  border-radius: 2em;
+  width: 8em;
+  padding: 1em;
+}
+.showMenu .highlight:hover {
+  border: 1px solid #45BF55;
 }
 
 /* change the menu's background when hamburgerIcon is clicked */
@@ -80,6 +92,8 @@ nav {
   animation: slide-in 0.5s forwards;
   -webkit-animation: slide-in 0.5s forwards;
 }
+
+/* Show and hide nav on scroll */
 .navShow{
   top:0em;
   /* background:#252525; */
