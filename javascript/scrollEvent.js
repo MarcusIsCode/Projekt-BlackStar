@@ -58,7 +58,8 @@ const body = document.body;
             formDownload.classList.add('downloadAbsolute')
             formDownload.classList.remove('downloadFixed')
         }     
-    console.log(scroll)
+        // toll for setting scroll event right
+        //console.log(scroll)
 })
 
 
