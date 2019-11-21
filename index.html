@@ -24,12 +24,12 @@
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
-                <img src="img/frontPage-mobile.jpg">
+                <img src="img/frontPage-mobile.jpg" loading="lazy">
             </picture>
         </div>
 
         <nav class="mainNav">
-            <img src="img/logo.png">
+            <img src="img/logo.png" loading="lazy">
             <div class="hamburgerIcon">
                 <!-- Hamburger menu -->
                 <div class="bar1"></div>
@@ -67,7 +67,7 @@
         <div class="backgroundImage">
             <picture>
                 <source srcset="img\Sektion2bg.jpg" media="(min-width: 992px)" />
-                <img src="img\Sektion2bg.jpg">
+                <img src="img\Sektion2bg.jpg" loading="lazy">
             </picture>
         </div>
         <div class='textBox'>
@@ -89,7 +89,7 @@
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
-                <img src="img/test-mobil.jpg">
+                <img src="img/test-mobil.jpg" loading="lazy">
             </picture>
         </div>
 
@@ -109,7 +109,7 @@
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
-                <img src="img/frontPage-mobile.jpg">
+                <img src="img/frontPage-mobile.jpg" loading="lazy">
             </picture>
         </div>
         <div class="textContent">
@@ -127,24 +127,28 @@
         <div class="slideshowContainer">
 
             <!-- Full-width images with caption text -->
-            <div class="mySlides fade">
+            <picture class="mySlides fade">
+                <source srcset="img/sion1-desktop.jpg" media="(min-width: 992px)" />
+                <img src="img/sion1-mobile.jpg" loading="lazy">
+            </picture>
+            <!-- <div class="mySlides fade">
                 <img src="img/sion1-mobile.jpg" srcset="img/sion1-mobile.jpg 500w, img/sion1-desktop.jpg 1500w"
-                    sizes="(max-width: 992px) 500px, 1500px" alt="">
+                    sizes="(max-width: 992px) 500px, 1500px" alt="" loading="lazy">
+               
+            </div> -->
+
+            <div class="mySlides fade">
+                <img src="img/sion2-mobile.jpg" srcset="img/sion2-mobile.jpg 500w,img/sion2-desktop.jpg 1500w" alt="" loading="lazy">
                 <!-- add alt="" text-->
             </div>
 
             <div class="mySlides fade">
-                <img src="img/sion2-mobile.jpg" srcset="img/sion2-mobile.jpg 500w,img/sion2-desktop.jpg 1500w" alt="">
+                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3-desktop.jpg 1500w" alt="" loading="lazy">
                 <!-- add alt="" text-->
             </div>
 
             <div class="mySlides fade">
-                <img src="img/sion3-mobile.jpg" srcset="img/sion3-mobile.jpg 500w, img/sion3-desktop.jpg 1500w" alt="">
-                <!-- add alt="" text-->
-            </div>
-
-            <div class="mySlides fade">
-                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4-desktop.jpg 1500w" alt="">
+                <img src="img/sion4-mobile.jpg" srcset="img/sion4-mobile.jpg 500w, img/sion4-desktop.jpg 1500w" alt="" loading="lazy">
                 <!-- add alt="" text-->
             </div>
 
@@ -209,7 +213,7 @@
         <div class="backgroundImage">
             <picture>
                 <source srcset="img/frontPage-desktop.jpg" media="(min-width: 992px)" />
-                <img src="img/frontPage-mobile.jpg">
+                <img src="img/frontPage-mobile.jpg" loading="lazy">
             </picture>
         </div>
         <h2>Contiune with the <br> Blackstar experience</h2>
@@ -233,7 +237,7 @@
         <div class="backgroundImage aboutBackground">
             <picture>
                 <source srcset="img/about-us-desktop.jpg" media="(min-width: 992px)" />
-                <img src="img/about-us-mobile.jpg">
+                <img src="img/about-us-mobile.jpg" loading="lazy">
             </picture>
         </div>
         <article>
@@ -257,9 +261,9 @@
                 <li>contact@blackstar.com</li>
                 <li>Arkivgatan 1, 411 34 Göteborg</li>
             </ul>
-            <a href="#"><img src="img/facebook.png" alt="Facebook logo"></a>
-            <a href="#"><img src="img/instagram.png" alt="Instagram logo"></a>
-            <a href="#"><img src="img/twitter.png" alt="Twitter logo"></a>
+            <a href="#"><img src="img/facebook.png" alt="Facebook logo" loading="lazy"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram logo" loading="lazy"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter logo" loading="lazy"></a>
             <p>Blackstar © 2019 Copyright</p>
         </footer>
 
