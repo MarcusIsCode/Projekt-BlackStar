@@ -1,14 +1,9 @@
 .seventhPage {
-    height: 120vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .aboutBackground {
     z-index: -1;
 }
-.aboutBackground img {
-    height: 120vh;
-}
-
 /* Article */
 .seventhPage article {
     margin: 0 1em;
@@ -58,6 +53,11 @@
 }
 
 /* Arrow */
+.bottomButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 .arrowUpp {
     transform: rotate(315deg); /* Makes the arrow point up */
 }
