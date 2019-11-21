@@ -1,1 +1,28 @@
 /* Second page - section */
+
+.textBox p{
+    font-size:14px;
+}
+.textBox{
+    position: absolute;
+    width:93vw;
+    background:rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    border-right: 4px solid  #45BF55;
+    padding: 1em 2em;
+    font-size:14px;
+    top:20%;
+    overflow: auto;
+}
+@media only screen and (min-width: 992px){
+    .textBox{
+        width:45vw;
+    }
+    .textBox{
+        font-size:17px;
+    }
+    .textBox p, h2{
+        margin-left:14vh
+    }
+    
+}
