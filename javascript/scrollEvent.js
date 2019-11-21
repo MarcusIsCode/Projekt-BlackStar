@@ -50,7 +50,7 @@ const body = document.body;
             
         }
 
-        if(scroll > 48 && scroll < 82.74){
+        if(scroll > 48 && scroll < 80.68){
             formDownload.classList.add('downloadFixed')
             formDownload.classList.remove('downloadAbsolute')
 
@@ -58,7 +58,7 @@ const body = document.body;
             formDownload.classList.add('downloadAbsolute')
             formDownload.classList.remove('downloadFixed')
         }     
-     //console.log(scroll)
+    console.log(scroll)
 })
 
 
