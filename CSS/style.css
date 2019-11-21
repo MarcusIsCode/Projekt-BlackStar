@@ -99,6 +99,7 @@ button {
     animation-name: bounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    z-index: 10;
 }
 .arrowDown {
     display: inline-block;
