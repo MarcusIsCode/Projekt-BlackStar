@@ -73,7 +73,7 @@ nav {
   width: 8em;
   padding: 1em;
 }
-.showMenu .highlight:hover {
+.menuItems .highlight:hover {
   border: 1px solid #45BF55;
 }
 
@@ -117,6 +117,12 @@ nav {
   .menuItems li {
     display: inline-block;
     padding: 0 1em;
+  }
+  .menuItems .highlight {
+    border: 1px solid #ffffff;
+    border-radius: 2em;
+    width: 8em;
+    padding: 0.6em;
   }
   .hamburgerIcon {
     display: none;
