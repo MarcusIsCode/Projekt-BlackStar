@@ -1,13 +1,14 @@
 nav {
   position: fixed;
-  z-index: 100;
+  z-index: 15;;
   top: 0;
   height: 4em;
-  width:100%;
+  width:100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1em;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 }
 .menuItems {
   display: none;
@@ -15,6 +16,7 @@ nav {
 .mainNav img {
   height: 1.5em;
 }
+
 /* Hamburger icon */
 .hamburgerIcon {
   width: 2rem;
@@ -80,7 +82,7 @@ nav {
 }
 .navShow{
   top:0em;
-  background:#252525;
+  /* background:#252525; */
   transition: top ease-in-out 0.4s;
 }
 .navHide{
@@ -88,7 +90,7 @@ nav {
   transition: top ease-in-out 0.4s;
 }
 .oopacityNav{
-  background-color:rgba(0,0,0,0);
+  /* background-color:rgba(0,0,0,0); */
   top:0em;
 } 
 
