@@ -26,6 +26,7 @@
     padding:0px
 }
 
+}
 
 @media only screen and (min-width: 992px) {
     .secondPage .textContent {
@@ -36,44 +37,3 @@
 
 
 
-/*
-.textBox p{
-    font-size:14px;
-}
-.textBox{
-    position: absolute;
-    width:93vw;
-    height:7.5em;
-    background:rgba(0, 0, 0, 0.6);
-    z-index: 2;
-    border-right: 4px solid  #45BF55;
-    padding: 1em 2em;
-    font-size:14px;
-    top:20%;
-    overflow: hidden;
-    left:-92.3vw;
-    transition: left 1s ease-in-out;
-    
-}
-.textBoxShow{
-   left: 0px ;
-  transition: left 1s ease-in-out;
-}
-.textBoxShow{
-   right: 0px ;
-  transition: left 1s ease-in-out;
-}
-
-@media only screen and (min-width: 992px){
-    .textBox{
-        width:45vw;
-    }
-    .textBox{
-        font-size:17px;
-    }
-    .textBox p, h2{
-        margin-left:14vh
-    }
-    
-}
-*/
