@@ -61,7 +61,7 @@ const textContentsArry = [].slice.call(textContents);
             
         }
         // download  folder appear / disipear
-        if(scroll > 48 && scroll < 80.68){
+        if(scroll > 48 && scroll < 83.27){
             formDownload.classList.add('downloadFixed');
             formDownload.classList.remove('downloadAbsolute');
 
@@ -95,7 +95,7 @@ const textContentsArry = [].slice.call(textContents);
 
     
         // toll for setting scroll event right
-        //console.log(scroll)
+       // console.log(scroll)
 })
 
 
