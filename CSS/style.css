@@ -159,3 +159,16 @@ a:hover {
 }
 }
 
+/** to show Textbox sektion to left**/
+
+/*section 2,4*/
+.textContentShow{
+   left: 0px !important;
+  transition: left 1s ease-in-out;
+}
+/*section 3*/
+.textContentShow2{
+   right: 0px !important;
+  transition: right 1s ease-in-out;
+
+}
