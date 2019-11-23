@@ -6,14 +6,17 @@
 } 
 
 .thirdPage .textContent {
+    position: absolute;
+    right: -89vw;
     display: inline;
-    margin-top: 5em;
+    margin-top:5em;
     padding: 2em;
-    width: 90vw;
+    width:90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto; /*background height adjusts to text content*/
     z-index: 1;
-    border-left: 4px solid #45BF45;
+    border-left: 0.3em solid #45BF45;
+    transition: right 1s ease-in-out;
 }
 
 .thirdPage h2 {

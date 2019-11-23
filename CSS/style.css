@@ -24,10 +24,16 @@
     scroll-behavior: smooth;
     margin: 0px;
 }
+/*make it work look better on chrome (Marcus)*/
+body{
+    margin:0px;
+    padding:0px; 
+}
 section {
     height: 100vh;
     width: 100vw;
     position: relative; 
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -91,7 +97,7 @@ ul {
     cursor: pointer;
 }
 
-/*downArrowButton*/
+/**downArrowButton*/
 button {
     margin: 0;
     height: 40px;
@@ -139,7 +145,7 @@ a:hover {
     }
 }
 
-/*positioning of down button*/
+/**positioning of down button*/
 .bottomButton {
     display: none;
 }
@@ -151,4 +157,17 @@ a:hover {
     justify-content: center;
     width: 100vw;
 }
+
+/** to show Textbox sektion to left**/
+/*section 2,4*/
+.textContentShow{
+   left: 0px !important;
+  transition: left 1s ease-in-out;
+}
+/*section 3*/
+.textContentShow2{
+   right: 0px !important;
+  transition: right 1s ease-in-out;
+=======
+
 }
