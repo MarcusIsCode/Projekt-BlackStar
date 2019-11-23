@@ -1,6 +1,7 @@
 /* Second page - section */
 
 .secondPage {
+    display: flex;
     flex-direction: column;
     
 } 
