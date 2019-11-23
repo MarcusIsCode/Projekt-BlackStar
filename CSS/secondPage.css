@@ -1,19 +1,68 @@
 /* Second page - section */
 
+.secondPage {
+    flex-direction: column;
+    
+} 
+
+.secondPage .textContent {
+    position: absolute;
+    top:15vh;
+    padding:0.5em 2em;
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+    z-index: 1;
+    border-right: 0.3em solid #45BF55;
+    left:-89vw;
+    transition: left 1s ease-in-out;
+}
+.secondPage p{
+    font-size: 13px;
+}
+.secondPage h2{
+    margin: 0px;
+    padding:0px
+}
+
+
+@media only screen and (min-width: 992px) {
+    .secondPage .textContent {
+        width: 40vw;
+        
+    }
+}
+
+
+
+/*
 .textBox p{
     font-size:14px;
 }
 .textBox{
     position: absolute;
     width:93vw;
+    height:7.5em;
     background:rgba(0, 0, 0, 0.6);
     z-index: 2;
     border-right: 4px solid  #45BF55;
     padding: 1em 2em;
     font-size:14px;
     top:20%;
-    overflow: auto;
+    overflow: hidden;
+    left:-92.3vw;
+    transition: left 1s ease-in-out;
+    
 }
+.textBoxShow{
+   left: 0px ;
+  transition: left 1s ease-in-out;
+}
+.textBoxShow{
+   right: 0px ;
+  transition: left 1s ease-in-out;
+}
+
 @media only screen and (min-width: 992px){
     .textBox{
         width:45vw;
@@ -26,3 +75,4 @@
     }
     
 }
+*/
