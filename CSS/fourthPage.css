@@ -5,12 +5,10 @@
 } 
 
 .fourthPage .textContent {
-    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     position: absolute;
     left:-89vw;
-    margin-bottom: 2.5em;
     padding: 2em;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
@@ -18,6 +16,7 @@
     z-index: 1;
     border-right: 0.3em solid #45BF55;
     transition: left 1s ease-in-out;
+    bottom: 2.5em;
 }
 
 
@@ -56,5 +55,6 @@
     .fourthPage .textContent {
         width: 40vw;
         margin-bottom: 5em;
+        transition: left 1.5s linear;
     }
 }

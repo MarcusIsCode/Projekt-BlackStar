@@ -75,7 +75,6 @@ const textContentsArry = [].slice.call(textContents);
         //section 2 and 4  left animation 
        if(scroll >6 && scroll < 19 ){
             textSection2.classList.add('textContentShow');
-            console.log('work')
 
        } else if (scroll > 43 && scroll < 58){
            textSection4.classList.add('textContentShow');

@@ -33,6 +33,7 @@
     flex-direction: column;
     align-content: flex-start;
     width: 40vw;
+    transition: right 1.5s ease-in-out;
 }
 
 .thirdPage p {

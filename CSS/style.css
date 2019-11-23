@@ -150,25 +150,28 @@ a:hover {
     display: none;
 }
 
-@media only screen and (min-width: 992px) {
-
-.bottomButton {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-}
-}
 
 /** to show Textbox sektion to left**/
 
 /*section 2,4*/
 .textContentShow{
-   left: 0px !important;
-  transition: left 1s ease-in-out;
+    left: 0px !important;
+    transition: left 1s ease-in-out;
 }
 /*section 3*/
 .textContentShow2{
-   right: 0px !important;
-  transition: right 1s ease-in-out;
-
+    right: 0px !important;
+    transition: right 1s ease-in-out;
+    
 }
+        @media only screen and (min-width: 992px) {
+        
+        .bottomButton {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+        }
+        .textContentShow{transition: left 1.5s ease-in-out;}
+        .textContentShow2{transition: right 1.5s ease-in-out;}
+        
+        }
