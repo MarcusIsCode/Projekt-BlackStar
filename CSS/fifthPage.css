@@ -43,8 +43,7 @@
 
 /* Next & previous buttons hover effect */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.575);
-  color: #ffffff;
+  color: #acabab;
 }
 
 /* Caption text */
@@ -77,12 +76,12 @@
 }
 
 /* Fading animation */
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-}
+} */
 
 /* Specs Table */
 table {
@@ -98,7 +97,7 @@ table td:nth-child(even) {
 }
 
 /* Animations */
-@-webkit-keyframes fade {
+/* @-webkit-keyframes fade {
   from {
     opacity: 0.4;
   }
@@ -114,7 +113,7 @@ table td:nth-child(even) {
   to {
     opacity: 1;
   }
-}
+} */
 
 /* Slideshow in desktop */
 @media only screen and (min-width: 992px) { 

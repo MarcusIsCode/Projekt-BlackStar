@@ -22,6 +22,7 @@ changeSlideButtons.forEach(changeSlideButton => {
   changeSlideButton.addEventListener('click', plusSlides);
 });
 
+slides.addEventListener("touchmove", plusSlides);
 
 
 // Dot image controls. Check if target element contains specified class name, then assign slideIndex new value.
