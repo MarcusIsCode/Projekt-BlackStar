@@ -24,6 +24,7 @@ changeSlideButtons.forEach(changeSlideButton => {
 });
 
 // Add touch event for mobile
+// https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
 slideImages.forEach(slideImage => {
   slideImage.addEventListener('touchstart', handleTouchStart, false); 
   slideImage.addEventListener('touchmove', handleTouchMove, false);
