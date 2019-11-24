@@ -3,13 +3,12 @@
 .secondPage {
     display: flex;
     flex-direction: column;
-    
 } 
 
 .secondPage .textContent {
     position: absolute;
-    top:15vh;
-    padding:0.5em 2em;
+    top: 15vh;
+    padding: 2em;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto;
@@ -18,15 +17,15 @@
     left:-89vw;
     transition: left 1s ease-in-out;
 }
+
 .secondPage p{
     font-size: 13px;
 }
+
 .secondPage h2{
     margin: 0px;
     padding:0px
 }
-
-
 
 @media only screen and (min-width: 992px) {
     .secondPage .textContent {

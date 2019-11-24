@@ -9,9 +9,9 @@
     position: absolute;
     right: -89vw;
     display: inline;
-    margin-top:5em;
+    margin-top: 5em;
     padding: 2em;
-    width:90vw;
+    width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto; /*background height adjusts to text content*/
     z-index: 1;
