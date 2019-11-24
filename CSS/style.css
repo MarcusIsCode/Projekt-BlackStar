@@ -18,7 +18,7 @@
 
 /* General styling */
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: aktivGroteskLight, sans-serif;
     color: #ffffff;
     scroll-behavior: smooth;
@@ -26,8 +26,8 @@
 }
 /*make it work look better on chrome (Marcus)*/
 body{
-    margin:0px;
-    padding:0px; 
+    margin: 0px;
+    padding: 0px; 
 }
 section {
     height: 100vh;
@@ -71,7 +71,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.6);
     height: 6.5em;
     width: 80%;
-    z-index:1;
+    z-index: 1;
     margin-bottom: 5.5em;
 }
 
@@ -88,6 +88,7 @@ ul {
     color: rgb(107, 105, 105);
     width: 60%;
     height: 2em;
+    cursor: text;
 }
 
 .mailForm button {
@@ -102,10 +103,10 @@ ul {
 /**downArrowButton*/
 button {
     margin: 0;
-    height: 40px;
-    width: 80px;
+    height: 3.5em;
+    width: 6em;
     background: transparent;
-    border: 0px solid wheat;
+    border: 0px solid #fff;
     cursor: pointer;
     animation-name: bounce;
     animation-duration: 2s;
