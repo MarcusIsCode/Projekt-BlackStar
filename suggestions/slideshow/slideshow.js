@@ -1,21 +1,36 @@
 /*slideindex is what's conntrolls the whole thing
 if  it's changed to 2 the carusel starts att number 2 in slides
 */
-let slideIndex = 1; 
+let slideIndex =1; 
+
 
 showSlides(slideIndex);
 
 // Next/previous controls,it's called upp on in the carusel.html.
 //it's used to add or subtract from slideIndex and used in "onclik"
+
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+
+const slid = document.getElementsByClassName("mySlides").length
+let x = 0;
+setInterval (function(){
+  x++
+  if(x <slid){
+    plusSlides(x)
+    x = 0;
+  }
+},5000)
+
+  
+
 
 // Thumbnail image controls, makes sure that the dots and number on the image is the same
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   
   const slides = document.getElementsByClassName("mySlides"); //to easier acces the id 
@@ -40,4 +55,7 @@ function showSlides(n) {
   
   slides[slideIndex-1].style.display = "block"; //this makes the picture vissble.
   dots[slideIndex-1].className += " active";//this makes the dot darkgray to se which is active.
+
+  console.log(n);  
+
 }
