@@ -3,7 +3,7 @@ nav {
   z-index: 15;;
   top: 0;
   height: 4em;
-  width:100vw;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,32 +19,29 @@ nav {
 
 /* Hamburger icon */
 .hamburgerIcon {
-  width: 2rem;
+  width: 2em;
   z-index: 2;
   position: absolute;
   right: 1.2em;
 }
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 4px;
+.bar1, .bar2 {
+  width: 2.2em;
+  height: 0.25em;
   background-color: #ffffff;
-  transition: 0.1s;
+  transition: 0.3s;
 }
 .bar2 {
-  margin: 7px 0;
+  margin-top: 0.6em;
 }
 
 /* Class "change" turns hamburgerIcon to a cross when clicked */
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-10px, 6px);
-  transform: rotate(-45deg) translate(-10px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-1em, 0.5em);
+  transform: rotate(-45deg) translate(-0.55em, 0.1em);
 }
 .change .bar2 {
-  opacity: 0;
-}
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-10px, -6px);
-  transform: rotate(45deg) translate(-10px, -6px);
+  -webkit-transform: rotate(45deg) translate(-1em, -0.5em);
+  transform: rotate(45deg) translate(-0.55em, -0.1em);
 }
 
 /* Class "showMenu" makes menu items visible when hamburgerIcon is clicked */
