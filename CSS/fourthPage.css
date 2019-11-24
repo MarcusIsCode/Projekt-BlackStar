@@ -19,38 +19,6 @@
     bottom: 2.5em;
 }
 
-
-.download {
-    background: black;
-    height: 3.2em;
-    width:100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    height: 3.5em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    bottom: 0;
-    z-index: 3;
-}
-.downloadFixed{position: fixed;}
-.downloadAbsolute{position: absolute;}
-.download button {
-    all: unset;
-    width: 6em;
-    height: 2em;
-    background: #45BF55;;
-    margin: 0em 1.8em;
-    padding: 0;
-    border-radius: 0.1em;
-    text-align: center;
-}
-.download p {
-    margin: 0;
-    padding: 0;
-}
-
 @media only screen and (min-width: 992px) {
     .fourthPage .textContent {
         width: 40vw;
