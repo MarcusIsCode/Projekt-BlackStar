@@ -15,15 +15,23 @@ h1 {
 }
 
 .frontPageFormAnimation {
-    animation-name: beat;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out;
+    animation-name: float;
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
 }
 
-@keyframes beat {
-    from {
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    /* from {
         transform: scale(1);
         transform-origin: center center;
         animation-timing-function: ease-in-out;
@@ -43,7 +51,7 @@ h1 {
 
     45% {
         transform: scale(1);
-    }
+    } */
 }
 
 @media only screen and (min-width: 992px) { 
