@@ -41,7 +41,10 @@
   border-radius: 0.1em 0 0 0.1em;
 }
 
-/* Next & previous buttons hover effect */
+/* Next & previous buttons hover/active effect */
+.prev:hover, .next:hover {
+  color: none;
+}
 .prev:active, .next:active {
   color: #acabab;
 }
