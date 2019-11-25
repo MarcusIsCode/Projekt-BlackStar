@@ -38,8 +38,10 @@ function currentSlide(event) {
 
   } else if (event.target.classList.contains('four')) {
     showSlides(slideIndex = 4);
+
   } else if (event.target.classList.contains('five')) {
     showSlides(slideIndex = 5);
+    
   } else if (event.target.classList.contains('six')) {
     showSlides(slideIndex = 6);
   }
