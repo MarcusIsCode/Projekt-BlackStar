@@ -43,7 +43,7 @@
 
 /* Next & previous buttons hover/active effect */
 .prev:hover, .next:hover {
-  color: none;
+  color: #000000;
 }
 .prev:active, .next:active {
   color: #acabab;
