@@ -41,8 +41,11 @@
   border-radius: 0.1em 0 0 0.1em;
 }
 
-/* Next & previous buttons hover effect */
+/* Next & previous buttons hover/active effect */
 .prev:hover, .next:hover {
+  color: #000000;
+}
+.prev:active, .next:active {
   color: #acabab;
 }
 
@@ -135,5 +138,8 @@ table td:nth-child(even) {
   }
   table {
     width: 31%;
+  }
+  .prev:hover, .next:hover {
+    color: #acabab;
   }
 }
