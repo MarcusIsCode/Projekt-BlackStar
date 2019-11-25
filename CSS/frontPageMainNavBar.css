@@ -15,6 +15,7 @@ nav {
 }
 .mainNav img {
   height: 1.5em;
+  margin-bottom: 0.3em;
 }
 
 /* Hamburger icon */
@@ -38,11 +39,11 @@ nav {
 /* Class "change" turns hamburgerIcon to a cross when clicked */
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-1em, 0.5em);
-  transform: rotate(-45deg) translate(-0.55em, 0.1em);
+  transform: rotate(-45deg) translate(-0.5em, 0.1em);
 }
 .change .bar2 {
   -webkit-transform: rotate(45deg) translate(-1em, -0.5em);
-  transform: rotate(45deg) translate(-0.55em, -0.1em);
+  transform: rotate(45deg) translate(-0.5em, -0.1em);
 }
 
 /* Class "showMenu" makes menu items visible when hamburgerIcon is clicked */
