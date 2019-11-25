@@ -15,13 +15,45 @@
     margin-top: 2.5em;
 }
 
+.sixthPage .desktopDownload {
+    display: none;
+}
+
 @media only screen and (min-width: 992px) {
     .sixthPage .content {
-        margin-left: 55vw;
-        margin-top: 7em;
+        margin-left: 60vw;
+        margin-top: 12em;
     }
     
     .sixthPage h2 {
         text-align: left;
+    }
+
+    /*trying to cut the image like in Figma*/
+    /* .sixthPage .backgroundImage img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    } */
+
+    .sixthPage .desktopDownload {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 26vw;
+        margin: 11em 0 0 60vw;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .sixthPage .desktopDownload p, .sixthPage .desktopDownload form {
+        padding: 1.6em 0.8em;
+    } 
+
+    .desktopDownload button {
+        background-color: #45bb55;
+        border: none;
+        padding: 0.6em;
+        font-size: 1em;
     }
 }

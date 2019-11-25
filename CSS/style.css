@@ -101,7 +101,7 @@ ul {
 }
 
 /* Scroll arrow */
-button {
+.bottomButton button {
     margin: 0;
     height: 3.5em;
     width: 6em;
