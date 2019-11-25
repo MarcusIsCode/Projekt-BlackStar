@@ -42,7 +42,7 @@
 }
 
 /* Next & previous buttons hover effect */
-.prev:hover, .next:hover {
+.prev:active, .next:active {
   color: #acabab;
 }
 
@@ -135,5 +135,8 @@ table td:nth-child(even) {
   }
   table {
     width: 31%;
+  }
+  .prev:hover, .next:hover {
+    color: #acabab;
   }
 }
