@@ -40,11 +40,11 @@ function getTouches(evt) {
 function handleTouchStart(evt) {
     const firstTouch = getTouches(evt)[0];                                      
     xDown = firstTouch.clientX;                                      
-    // yDown = firstTouch.clientY;                                      
+    yDown = firstTouch.clientY;                                      
 };                                                
 
 function handleTouchMove(evt) {
-    if ( ! xDown /*|| ! yDown */) {
+    if ( ! xDown || ! yDown ) {
         return;
     }
 
@@ -60,12 +60,12 @@ function handleTouchMove(evt) {
         } else {
           showSlides(slideIndex += 1);
         }                       
-    // } else {
-    //     if ( yDiff > 0 ) {
-    //         /* up swipe */ 
-    //     } else { 
-    //         /* down swipe */
-    //     }                                                                 
+    } else {
+        if ( yDiff > 0 ) {
+            /* up swipe */ 
+        } else { 
+            /* down swipe */
+        }                                                                 
     }
     /* reset values */
     xDown = null;
