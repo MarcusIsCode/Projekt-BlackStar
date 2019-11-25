@@ -15,7 +15,7 @@
     overflow: auto;
     z-index: 1;
     border-right: 0.3em solid #45BF55;
-    transition: left 1s ease-in-out;
+    transition: left 1s ease;
     bottom: 2.5em;
 }
 
@@ -23,6 +23,6 @@
     .fourthPage .textContent {
         width: 40vw;
         margin-bottom: 5em;
-        transition: left 1.5s linear;
+        transition: left 1s ease;
     }
 }

@@ -15,7 +15,7 @@
     z-index: 1;
     border-right: 0.3em solid #45BF55;
     left:-89vw;
-    transition: left 1s ease-in-out;
+    transition: left 1s ease;
 }
 
 .secondPage p{
@@ -30,7 +30,7 @@
 @media only screen and (min-width: 992px) {
     .secondPage .textContent {
         width: 40vw;
-        transition: left 1.5s ease-in-out;
+        transition: left 1s ease;
     }
     .secondPage p{
     font-size: 18px;

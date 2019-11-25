@@ -16,7 +16,7 @@
     overflow: auto; /*background height adjusts to text content*/
     z-index: 1;
     border-left: 0.3em solid #45BF45;
-    transition: right 1s ease-in-out;
+    transition: right 1s ease;
 }
 
 .thirdPage h2 {
@@ -33,7 +33,7 @@
     flex-direction: column;
     align-content: flex-start;
     width: 40vw;
-    transition: right 1.5s ease-in-out;
+    transition: right 1s ease;
 }
 
 .thirdPage p {

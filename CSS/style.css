@@ -194,12 +194,12 @@ a:hover {
 /*section 2,4*/
 .textContentShow{
     left: 0px !important;
-    transition: left 1s ease-in-out;
+    transition: left 1s ease;
 }
 /*section 3*/
 .textContentShow2{
     right: 0px !important;
-    transition: right 1s ease-in-out;
+    transition: right 1s ease ;
 }
 
 @media only screen and (min-width: 992px) {
@@ -209,10 +209,10 @@ a:hover {
         width: 100vw;
     }
     .textContentShow{
-        transition: left 1.5s ease-in-out;
+        transition: left 1s ease;
     }
     .textContentShow2{
-        transition: right 1.5s ease-in-out;
+        transition: right 1s ease;
     }
     .download {
         width: 25%;

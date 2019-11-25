@@ -95,7 +95,7 @@ const textContentsArry = [].slice.call(textContents);
 
     
         // toll for setting scroll event right
-       // console.log(scroll)
+        console.log(scroll)
 })
 
 
