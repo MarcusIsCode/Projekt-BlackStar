@@ -13,8 +13,21 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+const h = 1;
+const hh = -1;
+let f = document.body.clientWidth;
 
-const slid = document.getElementsByClassName("mySlides").length
+function showCoordinates(event) {
+  var x = event.touches[0].clientX;
+  document.getElementById("demo").innerHTML = x;
+  if (x > 280 &&  x < 281) {
+     plusSlides(h); 
+  }else if(x > 50 && x< 51 ){
+    plusSlides(hh);
+  }
+}
+
+/* const slid = document.getElementsByClassName("mySlides").length
 let x = 0;
 setInterval (function(){
   x++
@@ -23,11 +36,13 @@ setInterval (function(){
     x = 0;
   }
 },5000)
-
+ */
   
 
 
 // Thumbnail image controls, makes sure that the dots and number on the image is the same
+
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -56,6 +71,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; //this makes the picture vissble.
   dots[slideIndex-1].className += " active";//this makes the dot darkgray to se which is active.
 
-  console.log(n);  
+ 
 
 }
