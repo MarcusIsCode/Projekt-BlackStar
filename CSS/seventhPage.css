@@ -35,12 +35,11 @@
 .seventhPage .contact {
     margin: 3em 1em 0;
 }
-.seventhPage h3 {
-    font-size: 1em;
+.seventhPage h2 {
     padding-bottom: 1em;
 }
 .seventhPage ul, .seventhPage p {
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
 }
 .seventhPage ul li {
     padding: 0.3em 0;
