@@ -14,7 +14,7 @@
 - Or visit [Project BlackStar](https://project-blackstar13.netlify.com/)
 
 ## Crew
-### Webb developers
+### Web developers
 * Emelie Petersson
 * Camilla Kylmänen Sjörén 
 * Marcus Augustsson 
