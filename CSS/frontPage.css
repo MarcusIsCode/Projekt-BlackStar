@@ -12,6 +12,7 @@ h1 {
     text-align: center;
     width: 80%;
     z-index: 1;
+    line-height: 1.2;
 }
 
 .frontPageFormAnimation {
