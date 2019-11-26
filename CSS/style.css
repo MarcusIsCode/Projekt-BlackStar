@@ -106,8 +106,9 @@ ul {
 }
 
 .mailForm label {
+    text-align: left;
     display: block;
-    padding: 0.8em 0 0.6em 0;
+    padding: 0.8em 0 0.6em 0.8em;
 }
 
 .mailForm input {
@@ -256,6 +257,10 @@ a:hover {
 
     .download {
         width: 25%;
+    }
+
+    .mailForm label {
+        padding-left: 1.1em;
     }
 
 }
