@@ -36,23 +36,29 @@
                 <div class="bar2"></div>
             </div>
             <div class="menu">
-                <ul class="menuItems">
+                <div class="menuItems">
                     <!--These are displayed in desktop and hidden in mobile -->
-                    <li><a href="#">Functions</a></li> <!-- add anchor links to sections in the site -->
-                    <li><a href="#">Performance</a></li>
-                    <li><a href="#">Folder</a></li>
-                    <li><a href="#">About</a></li>
-                    <li class="preOrder">
-                        <a href="#" class="highlight">Pre-order<div class="arrowRight"></div></a>
-                    </li>
-                </ul>
+                    <select>
+                        <option value="english">Eng</option>
+                        <option value="swedish">Swe</option>
+                    </select>
+                    <ul>
+                        <li><a href="#">Functions</a></li> <!-- add anchor links to sections in the site -->
+                        <li><a href="#">Performance</a></li>
+                        <li><a href="#">Folder</a></li>
+                        <li><a href="#">About</a></li>
+                        <li class="preOrder">
+                            <a href="#" class="highlight">Pre-order &#10095;</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <h1>Your next journey starts here</h1>
         
         <form class="mailForm frontPageFormAnimation" method="post" action="index.html">
-                <label for="email" for="email">Join our mailing list and get exclusive updates</label>
+                <label for="email">Join our mailing list and get exclusive updates</label>
                 <input type="email" name="email" id="email" placeholder="your@email.com" required>
                 <button class="greenBtn" type="submit">Sign up</button>
         </form>
@@ -109,8 +115,8 @@
     <section class="fourthPage" id="four">
         <div class="backgroundImage">
             <picture>
-                <source srcset="img\DekstopBg\section4.2.jpg" media="(min-width: 692px)" />
-                <img src="img//mobileBg/sectionM4.jpg" loading="lazy">
+                <source srcset="img\DekstopBg\AG_P7_Interior_Desktop.jpg" media="(min-width: 692px)" />
+                <img src="img//mobileBg/AG_P7_Interior_Mobile.jpg" loading="lazy">
             </picture>
         </div>
         <div class="textContent">
@@ -224,20 +230,22 @@
             </picture>
         </div>
 
-        <!--text content-->
         <div class="content">
-            <h2>Continue with the</h2>
-            <h2>Blackstar experience</h2>
+            <!--Text content-->
+            <div class="headings">
+                <h2>Continue with the</h2>
+                <h2>Blackstar experience</h2>
+            </div>
+
+            <!--Download folder for desktop, remove the one scrolling?-->
+            <div class="desktopDownload">
+                <p>Get our product folder here</p>
+                <form class="dwnl" method="get" action="index.html">
+                    <button class="greenBtn" type="submit" id="download">Download!</button>
+                </form>
+            </div>
         </div>
 
-        <!--Download folder for desktop, remove the one scrolling?-->
-        <div class="desktopDownload">
-            <p>Get our product folder here</p>
-            <form class="dwnl" method="get" action="index.html">
-                <button class="greenBtn" type="submit" id="download">Download!</button>
-            </form>
-        </div>
-        
         <!-- ** Download folder-->
         <div class="download">
             <p>Get our product folder here</p>

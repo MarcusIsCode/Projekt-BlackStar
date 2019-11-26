@@ -94,6 +94,10 @@ table td:nth-child(even) {
     max-width: 70%;
     margin: 1em auto 0;
   }
+  .mySlides img {
+    max-width: 80em;
+    max-height: 30em;
+  }
   
   /* Next and prev arrow*/
   .changeSlide {

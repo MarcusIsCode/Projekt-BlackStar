@@ -1,28 +1,26 @@
 .fourthPage {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 } 
 
 .fourthPage .textContent {
     flex-direction: column;
     justify-content: center;
+    top: 5em;
     position: absolute;
     left:-89vw;
-    padding: 2em;
+    padding: 1.2em 2em;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto;
     z-index: 1;
     border-right: 0.3em solid #45BF55;
     transition: left 1s ease;
-    bottom: 2.5em;
 }
 
 @media only screen and (min-width: 992px) {
     .fourthPage .textContent {
         width: 40vw;
-        margin-bottom: 5em;
         transition: left 1s ease;
     }
 }

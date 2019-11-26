@@ -6,13 +6,16 @@
 .sixthPage h2 {
     color: #252525;
     font-size: 2em;
-    margin-top: 0.5em;
+    margin-top: 0.1em;
 }
 
 .sixthPage .content {
-    text-align: center;
     z-index: 1;
-    margin-top: 2.5em;
+}
+
+.sixthPage .headings {
+    text-align: center;
+    margin-top: 4.5em;
 }
 
 .sixthPage .desktopDownload {
@@ -21,8 +24,15 @@
 
 @media only screen and (min-width: 992px) {
     .sixthPage .content {
-        margin-left: 60vw;
-        margin-top: 12em;
+        height: 50vh;
+        margin: 9em 0 0 58vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .sixthPage .headings {
+
     }
     
     .sixthPage h2 {
@@ -33,20 +43,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 26vw;
-        margin: 11em 0 0 60vw;
+        width: 28vw;
         z-index: 1;
         background-color: rgba(0, 0, 0, 0.6);
     }
 
-    .sixthPage .desktopDownload p, .sixthPage .desktopDownload form {
-        padding: 1.6em 0.8em;
+    .sixthPage .desktopDownload p, 
+    .sixthPage .desktopDownload form {
+        padding: 1em 0.8em;
     } 
 
     .desktopDownload button {
         background-color: #45bb55;
+        cursor: pointer;
         border: none;
-        padding: 0.6em;
+        padding: 0.4em;
         font-size: 1em;
+        overflow: hidden;
+        white-space: nowrap; /*prevents text from wrapping in button*/
     }
 }
