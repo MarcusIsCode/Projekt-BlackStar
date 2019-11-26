@@ -31,44 +31,26 @@ h1 {
     50% {
         transform: translateY(10px);
     }
-
-    /* from {
-        transform: scale(1);
-        transform-origin: center center;
-        animation-timing-function: ease-in-out;
-    }
-
-    10% {
-        transform: scale(0.96);
-    }
-
-    17% {
-        transform: scale(0.98);
-    }
-
-    33% {
-        transform: scale(0.92);
-    }
-
-    45% {
-        transform: scale(1);
-    } */
 }
 
 @media only screen and (min-width: 992px) { 
     .frontPage {
         align-items: flex-start;
     }
-    .mailForm {
-        font-size: 1em;
-        width: 25em;
-        margin-left: 7em;
-        margin-bottom: 10em;
-    }
+
     h1 {
         text-align: left;
         font-size: 3.5em;
         width: 8em;
         margin-left: 2em;
     }
+
+    .mailForm {
+        font-size: 1em;
+        width: 30em;
+        margin-left: 7em;
+        margin-bottom: 10em;
+    }
+
+
 }
