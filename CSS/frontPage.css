@@ -17,7 +17,7 @@ h1 {
 .frontPageFormAnimation {
     animation-name: float;
     animation-duration: 3.5s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
 }
