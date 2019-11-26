@@ -33,8 +33,9 @@ section {
     height: 100vh;
     width: 100vw;
     position: relative; 
-    overflow-x: hidden;
+    overflow: hidden;
 }
+
 a {
     text-decoration: none;
     line-height: 0;
@@ -167,6 +168,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    transition:opacity ease 0.5s;
 }
 .downloadFixed{
     position: fixed;
@@ -217,5 +219,12 @@ a:hover {
     .download {
         width: 25%;
     }
-
+    .downloadAbsolute{
+     position: fixed;  
+     opacity: 0; 
+    animation: opacity ease 0.5s;
+    }
+    @keyframes opacity {
+        from{opacity:1;}
+        to{opacity:0;}}
 }

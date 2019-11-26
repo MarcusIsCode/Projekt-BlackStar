@@ -37,7 +37,7 @@ const textContentsArry = [].slice.call(textContents);
           so when you scroll and reach you can make things happen
           with an if statment.
              **/
-
+       
 
         //makes the navbar go upp and down;
         /** from stackoverflow  src = "https://stackoverflow.com/questions/31223341/detecting-scroll-direction" */
@@ -57,17 +57,24 @@ const textContentsArry = [].slice.call(textContents);
         
         }else{
             navBarScroll.classList.add('opacityNav');
-            navBarScroll.classList.remove('navShow');
-            
+            navBarScroll.classList.remove('navShow');   
         }
-        // download  folder appear / disipear
-        if(scroll > 48 && scroll < 83.27){
+        // download  folder appear / disipear style.css
+        if(scroll > 48 && scroll < 73.27){
             formDownload.classList.add('downloadFixed');
             formDownload.classList.remove('downloadAbsolute');
+            if(scroll < 80.27){
 
+                formDownload.style.display = 'flex';
+            }
+            
+        
         }else{
             formDownload.classList.add('downloadAbsolute');
             formDownload.classList.remove('downloadFixed');
+            if(scroll >80.27){
+               formDownload.style.display ='none';
+            }
         }     
 
         /** section 2-4  scrooll Text  animation **/
