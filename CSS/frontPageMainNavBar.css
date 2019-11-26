@@ -14,7 +14,7 @@ nav {
   display: none;
 }
 .mainNav img {
-  height: 1.1em;
+  height: 1em;
   margin-bottom: 0.3em;
 }
 
@@ -129,6 +129,9 @@ nav {
 @media only screen and (min-width: 992px) { 
   .menuItems {
     display: block;
+  }
+  .mainNav img {
+    height: 1.1em;
   }
   .menuItems li {
     display: inline-block;
