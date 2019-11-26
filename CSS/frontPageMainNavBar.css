@@ -1,13 +1,13 @@
 nav {
   position: fixed;
-  z-index: 15;;
+  z-index: 15;
   top: 0;
   height: 4em;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1em;
+  padding: 1em;
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
 }
 .menuItems {
@@ -15,6 +15,7 @@ nav {
 }
 .menuItems select {
   all: unset;
+  text-transform: uppercase;
 }
 .menuItems select:hover {
   color: #45BF55;
@@ -120,7 +121,6 @@ nav {
   top:0em;
 } 
 
-
 /* Nav menu in desktop */
 @media only screen and (min-width: 992px) { 
   .menuItems {
@@ -132,6 +132,14 @@ nav {
   .menuItems select {
     margin-right: 1em;
     font-weight: bold;
+    border-radius: 1em;
+    padding: 0.2em 0.3em 0.1em 0.5em;
+  }
+  .menuItems select:focus {
+    background-color: rgba(69, 191, 85, 0.4);
+  }
+  .menuItems ul {
+    margin-top: 0.18em;
   }
   .menuItems li {
     display: inline-block;

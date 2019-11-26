@@ -120,6 +120,11 @@ ul {
     width: 60%;
     height: 2em;
     cursor: text;
+    border: 2px solid white;
+}
+
+.mailForm input:focus {
+    border: 2px solid #45bf55;
 }
 
 .mailForm button {
@@ -129,6 +134,11 @@ ul {
     border-radius: 0.1em;
     background-color: #45BF55;
     cursor: pointer;
+    border: 2px solid #45bf55;
+}
+
+.mailForm button:focus {
+    border: 2px solid #044D29;
 }
 
 /* Scroll arrow */

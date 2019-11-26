@@ -42,15 +42,15 @@ h1 {
     h1 {
         text-align: left;
         width: 9em;
-        margin-left: 2.5em;
+        margin-left: 6vw;
+        margin-bottom: 1em;
     }
 
     .mailForm {
         font-size: 1em;
         width: 30em;
-        margin-left: 7em;
+        margin-left: 6vw;
         margin-bottom: 10em;
     }
-
 
 }
