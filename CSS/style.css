@@ -170,12 +170,11 @@ a:hover {
     justify-content: flex-end;
     transition:opacity ease 0.5s;
 }
-.downloadFixed{
-    position: fixed;
-}
-.downloadAbsolute{
-    position: absolute;
-}
+.downloadFixed{position: fixed;}
+.downloadAbsolute{position: absolute;}
+.downloadNone{Display:none;}
+
+
 .download button {
     all: unset;
     width: 6em;

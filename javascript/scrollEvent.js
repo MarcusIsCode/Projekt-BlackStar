@@ -60,12 +60,11 @@ const textContentsArry = [].slice.call(textContents);
             navBarScroll.classList.remove('navShow');   
         }
         // download  folder appear / disipear style.css
-        if(scroll > 48 && scroll < 73.27){
+        if(scroll > 44 && scroll < 73.27){
             formDownload.classList.add('downloadFixed');
             formDownload.classList.remove('downloadAbsolute');
             if(scroll < 80.27){
-
-                formDownload.style.display = 'flex';
+                formDownload.classList.remove('downloadNone');
             }
             
         
@@ -73,7 +72,7 @@ const textContentsArry = [].slice.call(textContents);
             formDownload.classList.add('downloadAbsolute');
             formDownload.classList.remove('downloadFixed');
             if(scroll >80.27){
-               formDownload.style.display ='none';
+                formDownload.classList.add('downloadNone');
             }
         }     
 
