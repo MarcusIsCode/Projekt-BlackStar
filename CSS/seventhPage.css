@@ -1,4 +1,8 @@
 .seventhPage {
+    height: 100vh;
+    width: 100vw;
+    position: relative; 
+    overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .aboutBackground {
@@ -28,7 +32,7 @@
 }
 
 /* Footer */
-.seventhPage footer {
+.seventhPage .contact {
     margin: 3em 1em 0;
 }
 .seventhPage h3 {
@@ -41,7 +45,7 @@
 .seventhPage ul li {
     padding: 0.3em 0;
 }
-.seventhPage footer img {
+.seventhPage .contact img {
     width: 2em;
     margin: 1em 0.5em 1em 0;
 }
@@ -68,18 +72,18 @@
     .aboutBackground, .aboutBackground img {
         height: 80vh;
     }
-    .seventhPage article, .seventhPage footer {
+    .seventhPage article, .seventhPage .contact {
         width: 40%;
     }
     /* Footer  */
-    .seventhPage footer {
+    .seventhPage .contact {
         text-align: center;
         margin: 0;
     }
     .seventhPage ul, .seventhPage p {
         font-size: 1em;
     }
-    .seventhPage footer h3 {
+    .seventhPage .contact h3 {
         font-size: 1.5em;
     }
     /* Arrow */
