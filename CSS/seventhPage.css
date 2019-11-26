@@ -4,17 +4,18 @@
     position: relative; 
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
 }
 .aboutBackground {
     z-index: -1;
 }
-/* Article */
-.seventhPage article {
-    margin: 0 1em;
+/* Article and footer/contact us */
+.seventhPage article,
+.seventhPage .contact {
+    margin: 3.6em 1em 0 1em;
 }
-.seventhPage article h2 {
-    padding: 2em 0 1em;
-}
+
 .seventhPage article p {
     padding-bottom: 1em;
 }
@@ -27,21 +28,20 @@
     margin: 0 auto;
     padding: 0;
 }
+
+.seventhPage label {
+    padding: 0;
+    margin: 1em 0;
+}
+
 .seventhPage .mailForm button {
     text-align: center;
 }
 
-/* Footer */
-.seventhPage .contact {
-    margin: 3em 1em 0;
-}
-.seventhPage h3 {
-    font-size: 1em;
+.seventhPage h2 {
     padding-bottom: 1em;
 }
-.seventhPage ul, .seventhPage p {
-    font-size: 0.8em;
-}
+
 .seventhPage ul li {
     padding: 0.3em 0;
 }
@@ -66,26 +66,36 @@
     .seventhPage {
         height: 80vh;
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
+
     .aboutBackground, .aboutBackground img {
         height: 80vh;
     }
-    .seventhPage article, .seventhPage .contact {
+
+    .seventhPage article, 
+    .seventhPage .contact {
         width: 40%;
+        height: 80%;
+        margin-top: 4em;
     }
+
+    .seventhPage h2 {
+        padding-bottom: 1.5em;
+    }
+
     /* Footer  */
     .seventhPage .contact {
         text-align: center;
-        margin: 0;
     }
-    .seventhPage ul, .seventhPage p {
-        font-size: 1em;
+
+    .seventhPage .contact img {
+        margin: 2.6em 0.5em;
+        /* margin: 1em 0.5em 1em 0; */
     }
-    .seventhPage .contact h3 {
-        font-size: 1.5em;
-    }
+
     /* Arrow */
     .bottomButton {
         position: absolute;
