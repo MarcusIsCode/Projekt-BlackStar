@@ -34,7 +34,11 @@ h1 {
     font-size: 2.12rem;
 }
 
-p {
+h2 {
+    font-size: 1.125rem;
+}
+
+p, a {
     font-size: 0.85rem;
 }
 
@@ -43,8 +47,12 @@ p {
     h1 {
         font-size: 3rem;
     }
+
+    h2 {
+        font-size: 1.5rem;
+    }
     
-    p {
+    p, a {
         font-size: 1rem;
     }
 
@@ -67,6 +75,7 @@ a {
     text-decoration: none;
     line-height: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 ul {
@@ -139,6 +148,14 @@ ul {
 
 .mailForm button:focus {
     border: 2px solid #044D29;
+}
+
+/* "Read more" anchor link on section 2, 3, and 4*/
+.textContent .readMore {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 1.2em;
 }
 
 /* Scroll arrow */

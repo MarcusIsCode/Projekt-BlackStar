@@ -18,6 +18,10 @@
     transition: left 1s ease;
 }
 
+.fourthPage h2 {
+    margin: 0 0 0.1em 0;
+}
+
 @media only screen and (min-width: 992px) {
     .fourthPage .textContent {
         width: 40vw;
