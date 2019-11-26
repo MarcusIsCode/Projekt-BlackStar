@@ -10,7 +10,7 @@
     position: absolute;
     right: -89vw;
     display: inline;
-    padding: 1.2em;
+    padding: 1.2em 2em;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto; /*background height adjusts to text content*/

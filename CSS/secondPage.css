@@ -7,7 +7,7 @@
 
 .secondPage .textContent {
     top: 15vh;
-    padding: 1.2em;
+    padding: 1.2em 2em;
     position: absolute;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
