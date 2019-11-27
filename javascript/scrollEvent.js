@@ -59,26 +59,39 @@ const textContentsArry = [].slice.call(textContents);
             navBarScroll.classList.add('opacityNav');
             navBarScroll.classList.remove('navShow');   
         }
+        // download appear/dissipear mobiel
+        if(window.innerWidth < 500){
+            if(scroll > 49 && scroll < 83.333){
+                formDownload.classList.remove('downloadAbsolute');
+                formDownload.classList.add('downloadFixed2');
+                
+                 if(scroll > 49 && scroll< 50.4){
+                        formDownload.classList.add('ani');
+                 }
+            }else{      
+                formDownload.classList.add('downloadAbsolute');
+                formDownload.classList.remove('downloadFixed2');
+                formDownload.classList.remove('ani');
+            }
+        } 
         // download folder appear/disappear in Desktop
-        if(scroll > 49 && scroll < 83.333){
-            formDownload.classList.add('downloadFixed');
-            formDownload.classList.remove('downloadAbsolute');
-            
-            if(scroll > 77 && window.innerWidth > 500){
-                formDownload.classList.add('downloadNone');
-            }
-            if(scroll < 77 && window.innerWidth > 500){
+        if (window.innerWidth > 500){
+            if (scroll > 47 && scroll < 72){
+                formDownload.classList.add('downloadFixed')
                 formDownload.classList.remove('downloadNone');
+                formDownload.classList.remove('animate');
+            }else{
+                formDownload.classList.remove('downloadFixed2');
+                formDownload.classList.remove('downloadFixed');
+                formDownload.classList.remove('downloadFixed2');
             }
-            
-        
-        }else{
-            formDownload.classList.add('downloadAbsolute');
-            formDownload.classList.remove('downloadFixed');
-            
-            if(scroll > 77 && window.innerWidth > 500){
+            if( scroll > 75){
                 formDownload.classList.add('downloadNone');
+                formDownload.classList.add('animate');
+                formDownload.classList.remove('downloadFixed2');
+                
             }
+
         }     
 
         /** section 2-4  scrooll Text  animation **/

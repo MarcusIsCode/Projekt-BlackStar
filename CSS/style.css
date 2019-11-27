@@ -231,12 +231,18 @@ a:hover {
     align-items: center;
     justify-content: flex-end;
 }
-
+.downloadFixed2{
+    position: fixed;
+}
 .downloadFixed{
     position: fixed;
-    animation: opacity ease-in-out 0.5s;
+    animation: opacity ease-in-out 1s;
 }
-.downloadAbsolute{
+.ani{
+    animation: opacity ease-in-out 1s;   
+}
+
+.downloadAbsolute{ /*mobiel */
     position: absolute;
 }
 @keyframes opacity {
@@ -301,10 +307,6 @@ a:hover {
         Display:none;
     }
 
-    .downloadAbsolute{
-     position: fixed;  
-     opacity: 0; 
-    }
 
     .mailForm label {
         padding-left: 1.1em;
