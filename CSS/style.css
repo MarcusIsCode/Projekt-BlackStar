@@ -42,6 +42,10 @@ p, a, li {
     font-size: 0.85rem;
 }
 
+.menuItems a {
+    font-size: 1rem;
+}
+
 /*font sizes desktop*/
 @media only screen and (min-width: 992px) {
     h1 {
