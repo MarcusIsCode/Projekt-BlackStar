@@ -1,5 +1,5 @@
 
-<img src="https://media.giphy.com/media/xTiTnfZjpo4ERiDeTK/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif" width="100%">
 
 # Project BlackStar
 
