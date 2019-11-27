@@ -5,6 +5,7 @@
 
 ## Assignment
 Oldsmobile is going to reintroduce themselves and launch a new innovative car/motorcycle. For their reintroduction, Oldsmobile are aiming for a new futuristic model, called BlackStar. This is a "techy" vehicle of our time and that will bring them back to the market. 
+
 Our assignment is to create a landing page that radiates design, modernity, technology, and innovation. The landing page should inspire and provide information, and also servers two purposes:
 To collect email adresses and also to provide a product folder which the user can download.
 
