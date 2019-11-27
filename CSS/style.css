@@ -42,6 +42,10 @@ p, a, li {
     font-size: 0.85rem;
 }
 
+td {
+    font-size: 1rem;
+}
+
 .menuItems a {
     font-size: 1rem;
 }
