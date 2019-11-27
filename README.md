@@ -1,6 +1,4 @@
 
-
-![gif]()
 <img src="http://giphygifs.s3.amazonaws.com/media/11V6rs3BsLzVcs/giphy.gif" width="100%>
 
 # Project BlackStar
