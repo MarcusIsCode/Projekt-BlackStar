@@ -10,7 +10,7 @@
 .slideshowContainer {
   max-width: 100%;
   position: relative;
-  margin: 0 auto;
+  margin: 2em auto 0;
 }
 .mySlides img {
   width: 100%;
