@@ -59,11 +59,15 @@ const textContentsArry = [].slice.call(textContents);
             navBarScroll.classList.add('opacityNav');
             navBarScroll.classList.remove('navShow');   
         }
-        // download  folder appear / disipear style.css
-        if(scroll > 44 && scroll < 73.27){
+        // download folder appear/disappear in Desktop
+        if(scroll > 49 && scroll < 83.333){
             formDownload.classList.add('downloadFixed');
             formDownload.classList.remove('downloadAbsolute');
-            if(scroll < 80.27){
+            
+            if(scroll > 77 && window.innerWidth > 500){
+                formDownload.classList.add('downloadNone');
+            }
+            if(scroll < 77 && window.innerWidth > 500){
                 formDownload.classList.remove('downloadNone');
             }
             
@@ -71,7 +75,8 @@ const textContentsArry = [].slice.call(textContents);
         }else{
             formDownload.classList.add('downloadAbsolute');
             formDownload.classList.remove('downloadFixed');
-            if(scroll >80.27){
+            
+            if(scroll > 77 && window.innerWidth > 500){
                 formDownload.classList.add('downloadNone');
             }
         }     

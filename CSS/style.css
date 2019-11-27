@@ -227,12 +227,23 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    transition:opacity ease 0.5s;
 }
 
-.downloadFixed{position: fixed;}
-.downloadAbsolute{position: absolute;}
-.downloadNone{Display:none;}
+.downloadFixed{
+    position: fixed;
+    animation: opacity ease-in-out 0.5s;
+}
+.downloadAbsolute{
+    position: absolute;
+}
+@keyframes opacity {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
 
 
 .download button {
@@ -283,20 +294,21 @@ a:hover {
     .download {
         width: 25%;
     }
+    .downloadNone{
+        Display:none;
+    }
 
     .downloadAbsolute{
      position: fixed;  
      opacity: 0; 
-    animation: opacity ease 0.5s;
     }
-    @keyframes opacity {
-        from{opacity:1;}
-        to{opacity:0;}}
-
 
     .mailForm label {
         padding-left: 1.1em;
     }
-
-
+    
 }
+
+
+
+    
