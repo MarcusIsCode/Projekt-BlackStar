@@ -61,11 +61,11 @@ const textContentsArry = [].slice.call(textContents);
         }
         // download appear/dissipear mobiel
         if(window.innerWidth < 500){
-            if(scroll > 49 && scroll < 83.333){
+            if(scroll > 42.75 && scroll < 70){
                 formDownload.classList.remove('downloadAbsolute');
                 formDownload.classList.add('downloadFixed2');
                 
-                 if(scroll > 49 && scroll< 50.4){
+                 if(scroll > 42 && scroll< 45.4){
                         formDownload.classList.add('ani');
                  }
             }else{      
@@ -76,16 +76,16 @@ const textContentsArry = [].slice.call(textContents);
         } 
         // download folder appear/disappear in Desktop
         if (window.innerWidth > 500){
-            if (scroll > 47 && scroll < 72){
+            if (scroll > 44 && scroll < 71.60){
                 formDownload.classList.add('downloadFixed')
                 formDownload.classList.remove('downloadNone');
                 formDownload.classList.remove('animate');
             }else{
                 formDownload.classList.remove('downloadFixed2');
                 formDownload.classList.remove('downloadFixed');
-                formDownload.classList.remove('downloadFixed2');
+        
             }
-            if( scroll > 75){
+            if( scroll > 71.3){
                 formDownload.classList.add('downloadNone');
                 formDownload.classList.add('animate');
                 formDownload.classList.remove('downloadFixed2');
@@ -97,10 +97,10 @@ const textContentsArry = [].slice.call(textContents);
         /** section 2-4  scrooll Text  animation **/
         
         //section 2 and 4  left animation 
-       if(scroll >6 && scroll < 19 ){
+       if(scroll >5 && scroll < 19 ){
             textSection2.classList.add('textContentShow');
 
-       } else if (scroll > 43 && scroll < 58){
+       } else if (scroll > 34 && scroll < 58){
            textSection4.classList.add('textContentShow');
         } else{
            textSection2.classList.remove('textContentShow');
@@ -109,7 +109,7 @@ const textContentsArry = [].slice.call(textContents);
         }
 
         //section 3 right animation
-       if(scroll > 21 && scroll < 36.5){
+       if(scroll > 20.5 && scroll < 36.5){
            textSection3.classList.add('textContentShow2')
 
         }else{
