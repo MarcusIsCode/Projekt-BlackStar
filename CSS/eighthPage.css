@@ -1,4 +1,4 @@
-.seventhPage {
+.eighthPage {
     height: 100vh;
     width: 100vw;
     position: relative; 
@@ -12,17 +12,17 @@
     z-index: -1;
 }
 /* Article and footer/contact us */
-.seventhPage article,
-.seventhPage .contact {
+.eighthPage article,
+.eighthPage .contact {
     margin: 2.5em 1em 0 1em;
 }
 
-.seventhPage article p {
+.eighthPage article p {
     padding-bottom: 1em;
 }
 
 /* Email form */
-.seventhPage .mailForm {
+.eighthPage .mailForm {
     text-align: left;
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
@@ -30,23 +30,23 @@
     padding: 0;
 }
 
-.seventhPage label {
+.eighthPage label {
     padding: 0;
     margin: 1em 0;
 }
 
-.seventhPage .mailForm button {
+.eighthPage .mailForm button {
     text-align: center;
 }
 
-.seventhPage h2 {
+.eighthPage h2 {
     padding-bottom: 1em;
 }
 
-.seventhPage ul li {
+.eighthPage ul li {
     padding: 0.3em 0;
 }
-.seventhPage .contact img {
+.eighthPage .contact img {
     width: 2em;
     margin: 1em 0.5em 1em 0;
 }
@@ -64,7 +64,7 @@
 /* Media queries for desktop */
 @media only screen and (min-width: 992px) { 
     /* Change display and height of section */
-    .seventhPage {
+    .eighthPage {
         height: 80vh;
         display: flex;
         flex-direction: row;
@@ -76,23 +76,23 @@
         height: 80vh;
     }
 
-    .seventhPage article, 
-    .seventhPage .contact {
+    .eighthPage article, 
+    .eighthPage .contact {
         width: 40%;
         height: 80%;
         margin-top: 9em;
     }
 
-    .seventhPage h2 {
+    .eighthPage h2 {
         padding-bottom: 1.5em;
     }
 
     /* Footer  */
-    .seventhPage .contact {
+    .eighthPage .contact {
         text-align: center;
     }
 
-    .seventhPage .contact img {
+    .eighthPage .contact img {
         margin: 2.6em 0.5em;
         /* margin: 1em 0.5em 1em 0; */
     }
