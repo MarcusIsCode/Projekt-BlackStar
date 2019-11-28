@@ -1,5 +1,3 @@
-/* Second page - section */
-
 .secondPage {
     display: flex;
     flex-direction: column;
@@ -15,13 +13,14 @@
     z-index: 1;
     border-right: 0.3em solid #45BF55;
     left:-89vw;
-    transition: left 1s ease;
+    transition: left 1s ease; /* Slide out to the left */
 }
 
 .secondPage h2{
     margin: 0 0 0.1em 0;
 }
 
+/* Second page in desktop */
 @media only screen and (min-width: 992px) {
     .secondPage .textContent {
         width: 40vw;

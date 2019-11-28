@@ -13,6 +13,8 @@ nav {
 .menuItems {
   display: none;
 }
+
+/* Select languages */
 .menuItems select {
   all: unset;
   text-transform: uppercase;
@@ -20,6 +22,8 @@ nav {
 .menuItems select:hover {
   color: #45BF55;
 }
+
+/* Blackstar logo */
 .mainNav img {
   height: 1em;
   margin-bottom: 0.1em;
@@ -34,8 +38,8 @@ nav {
 }
 .bar1, .bar2 {
   width: 2.2em;
-  border-radius: 1em; /*remove if we don't want it*/
-  height: 0.2em; /*changed from 0.25*/
+  border-radius: 1em;
+  height: 0.2em;
   background-color: #ffffff;
   transition: 0.3s;
 }
@@ -108,7 +112,6 @@ nav {
 /* Show and hide nav on scroll */
 .navShow{
   top:0em;
-  /* background:#252525; */
   transition: top ease-in-out 0.4s;
 }
 .navHide{
@@ -116,7 +119,6 @@ nav {
   transition: top ease-in-out 0.4s;
 }
 .oopacityNav{
-  /* background-color:rgba(0,0,0,0); */
   top:0em;
 } 
 
@@ -125,9 +127,13 @@ nav {
   .menuItems {
     display: flex;
   }
+
+  /* Blackstar logo */
   .mainNav img {
     height: 1.1em;
   }
+
+  /* Select languages */
   .menuItems select {
     margin-right: 1em;
     font-weight: bold;
@@ -137,6 +143,8 @@ nav {
   .menuItems select:focus {
     background-color: rgba(69, 191, 85, 0.4);
   }
+
+  /* Menu items */
   .menuItems ul {
     margin-top: 0.18em;
   }

@@ -17,10 +17,12 @@
     margin-top: 4.5em;
 }
 
+/* Download folder */
 .sixthPage .desktopDownload {
     display: none;
 }
 
+/* Section six in desktop */
 @media only screen and (min-width: 992px) {
     .sixthPage .content {
         height: 50vh;
@@ -28,10 +30,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-    
-    .sixthPage .headings {
-
     }
     
     .sixthPage h2 {

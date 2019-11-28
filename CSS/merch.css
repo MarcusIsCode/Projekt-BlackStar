@@ -15,7 +15,7 @@
     object-position: center;
 }
 
-
+/* Merch section in desktop */
 @media only screen and (min-width: 992px) {
     .merch {
         display: flex;

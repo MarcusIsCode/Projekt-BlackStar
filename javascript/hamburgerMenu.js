@@ -11,6 +11,7 @@ hamburgerIcon.addEventListener('click', () => {
     hamburgerIcon.classList.toggle('change');
 }) 
 
+// Function hides menu when window innerWidth is larger than 400 and the menu is displayed
 window.addEventListener('resize', function() {
     if (window.innerWidth > 400 && menuContainer.classList.contains('changeBackground')) {
         menuContainer.classList.remove('changeBackground');
