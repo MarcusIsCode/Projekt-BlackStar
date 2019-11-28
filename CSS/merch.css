@@ -39,7 +39,6 @@
     .merch {
         display: flex;
         flex-direction: row;
-        /* align-content: stretch; */
     }
 
     .merch .merchContent {
