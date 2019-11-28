@@ -24,7 +24,8 @@ changeSlideButtons.forEach(changeSlideButton => {
 });
 
 
-// Dot image controls. Check if target element contains specified class name, then assign slideIndex new value.
+// Dot image controls. Check if target element contains specified class name, 
+//then assign slideIndex with new value and call showSlides function.
 function currentSlide(event) {
  
   if (event.target.classList.contains('one')) {

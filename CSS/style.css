@@ -22,7 +22,7 @@
     font-family: aktivGroteskLight, sans-serif;
     color: #ffffff;
     scroll-behavior: smooth;
-    margin: 0px;
+    margin: 0;
 }
 
 html {
@@ -66,10 +66,10 @@ td {
 
 }
 
-/*make it work look better on chrome (Marcus)*/
+/*make it work better on chrome (Marcus)*/
 body{
-    margin: 0px;
-    padding: 0px; 
+    margin: 0;
+    padding: 0; 
 }
 
 section {
@@ -104,7 +104,7 @@ ul {
     object-fit: cover;
 }
 
-/*Make text display on background image*/
+/*Make text display over background image */
 .backgroundImage + p {
     position: relative;
     z-index: 1;
@@ -250,7 +250,7 @@ a:hover {
     animation: opacity ease-in-out 1s;   
 }
 
-.downloadAbsolute{ /*mobiel */
+.downloadAbsolute { /* used in mobile */
     position: absolute;
 }
 @keyframes opacity {
@@ -261,7 +261,6 @@ a:hover {
         opacity:1;
     }
 }
-
 
 .download button {
     all: unset;
@@ -279,27 +278,30 @@ a:hover {
     padding: 0;
 }
 
-/** to show Textbox sektion to left**/
 
-/*section 2,4*/
-.textContentShow{
+/**  Slide effects on textboxes **/
+/* section 2,4 */
+.textContentShow {
     left: 0px !important;
-    transition: left 1s ease;
+    transition: left 1s ease; /*slide in from left*/
 }
 
-/*section 3*/
+/* section 3 */
 .textContentShow2{
     right: 0px !important;
-    transition: right 1s ease ;
+    transition: right 1s ease; /*slide in from right*/
 }
 
+/* On desktop */
 @media only screen and (min-width: 992px) {
+    /* Scroll arrow */
     .bottomButton {
         display: flex;
         justify-content: center;
         width: 100vw;
     }
 
+    /* Textboxes sections 2-4 */
     .textContentShow{
         transition: left 1s ease;
     }
@@ -307,7 +309,8 @@ a:hover {
     .textContentShow2{
         transition: right 1s ease;
     }
-
+ 
+    /* Download folder */
     .download {
         width: 25%;
     }
@@ -315,7 +318,7 @@ a:hover {
         Display:none;
     }
 
-
+    /* Mailform */
     .mailForm label {
         padding-left: 1.1em;
     }

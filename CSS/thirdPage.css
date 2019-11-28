@@ -16,13 +16,14 @@
     overflow: auto; /*background height adjusts to text content*/
     z-index: 1;
     border-left: 0.3em solid #45BF45;
-    transition: right 1s ease;
+    transition: right 1s ease; /* slide out to the right */
 }
 
 .thirdPage h2 {
     margin: 0 0 0.1em 0;
 }
 
+/* Third page on desktop */
 @media only screen and (min-width: 992px) {
 .thirdPage {
     align-items: flex-end;

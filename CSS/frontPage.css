@@ -1,5 +1,3 @@
-
-/* Front page - section */
 .frontPage {
     background-image: linear-gradient(#252525, rgba(255, 255, 255, 0) 10% 80%, #252525);
     display: flex;
@@ -16,6 +14,7 @@ h1 {
     line-height: 1.2;
 }
 
+/* Animation on the email form */
 .frontPageFormAnimation {
     animation-name: float;
     animation-duration: 3.5s;
@@ -34,6 +33,7 @@ h1 {
     }
 }
 
+/* Front page in desktop */
 @media only screen and (min-width: 992px) { 
     .frontPage {
         align-items: flex-start;

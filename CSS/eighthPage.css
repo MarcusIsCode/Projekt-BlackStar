@@ -8,10 +8,12 @@
     flex-direction: column;
     overflow: hidden;
 }
+
 .aboutBackground {
     z-index: -1;
 }
-/* Article and footer/contact us */
+
+/* Article and contact details */
 .eighthPage article,
 .eighthPage .contact {
     margin: 2.5em 1em 0 1em;
@@ -51,7 +53,7 @@
     margin: 1em 0.5em 1em 0;
 }
 
-/* Arrow */
+/* Scroll arrow */
 .bottomButton {
     position: absolute;
     bottom: 0;
@@ -94,10 +96,9 @@
 
     .eighthPage .contact img {
         margin: 2.6em 0.5em;
-        /* margin: 1em 0.5em 1em 0; */
     }
 
-    /* Arrow */
+    /* Scroll arrow */
     .bottomButton {
         position: absolute;
         bottom: 1em;

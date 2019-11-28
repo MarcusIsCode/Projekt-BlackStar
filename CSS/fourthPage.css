@@ -8,23 +8,23 @@
     justify-content: center;
     top: 5em;
     position: absolute;
-    left:-89vw;
     padding: 1.2em 2em;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.6);
     overflow: auto;
     z-index: 1;
     border-right: 0.3em solid #45BF55;
-    transition: left 1s ease;
+    left:-89vw;
+    transition: left 1s ease; /* text box slides out to the left */
 }
 
 .fourthPage h2 {
     margin: 0 0 0.1em 0;
 }
 
+/* Fourth page in desktop */
 @media only screen and (min-width: 992px) {
     .fourthPage .textContent {
         width: 40vw;
-        transition: left 1s ease;
     }
 }
