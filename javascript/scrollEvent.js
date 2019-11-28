@@ -8,7 +8,7 @@ const textContentsArry = [].slice.call(textContents);
     const textSection2 = textContentsArry[0];
     const textSection3 = textContentsArry[1];
     const textSection4 = textContentsArry[2];
-
+    const textSectionMerch = textContentsArry[3];
 
   
     window.addEventListener('scroll', ()=>{
@@ -116,7 +116,15 @@ const textContentsArry = [].slice.call(textContents);
            textSection3.classList.remove('textContentShow2')
         }
 
+        /* Merch sidan*/
+        /* 
+        if (scroll > 80 && scroll < 36.5) {
+            textSectionMerch.classList.add('textContentShow')
 
+        } else {
+            textSectionMerch.classList.remove('textContentShow')
+        }
+ */
     
         // toll for setting scroll event right
         console.log(scroll)
