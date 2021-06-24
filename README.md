@@ -19,7 +19,7 @@ To collect email adresses and also to provide a product folder which the user ca
 ## Crew
 ### Web developers
 * Emelie Petersson - https://github.com/emeliepetersson
-* Camilla Kylmänen Sjörén - https://github.com/camiwd
+* Camilla Kylmänen Sjörén - https://github.com/camkyl
 * Marcus Augustsson - https://github.com/MarcusIsCode
 
 
